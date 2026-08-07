@@ -1,12 +1,12 @@
 # Tunables. Model coefficients live in src/mmd/model.py and are re-fit with
 # `mmd backtest`; anything here is an operational knob, safe to change.
 
-list_size: 25              # rows published per session
+list_size: 15              # rows published per session
 max_per_catalyst: 12       # stops one earnings-heavy day crowding out everything
 min_price: 1.50            # sub-$1.50 "movers" are usually one print wide
 min_dollar_volume: 5000000 # $5M/day — below this, a 40% move is untradeable
 history_days: 60           # lookback for ATR and realized vol
-universe_scan_limit: 600   # cap on candidates before scoring, for rate limits
+universe_scan_limit: 60   # cap on candidates before scoring, for rate limits
 
 # Names that reprice on scheduled macro data rather than company news.
 # Kept short on purpose: a long list dilutes the ranking with beta.
