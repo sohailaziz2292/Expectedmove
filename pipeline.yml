@@ -1,0 +1,99 @@
+name: pipeline
+
+# GitHub Actions cron is UTC and does not observe US daylight saving, so this
+# over-schedules and lets src/mmd/clock.py decide whether a run should act.
+# Scheduled runs are also routinely delayed 5-20 minutes at the top of the
+# hour, which is why the pre-market window is dense and offset off :00.
+
+on:
+  schedule:
+    # Evening draft — tomorrow's list opens at 17:00 ET (21:00/22:00 UTC)
+    - cron: '7,37 21-23 * * 1-5'
+    # Overnight refresh — hourly
+    - cron: '22 0-9 * * 1-5'
+    # Pre-market — every 15 min through the 08:25 ET freeze (both DST offsets)
+    - cron: '3,18,33,48 10,11,12 * * 1-5'
+    # Post-close scoring
+    - cron: '20,50 20,21 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      session:
+        description: 'Session to build (YYYY-MM-DD), blank = auto'
+        required: false
+      lock:
+        description: 'Freeze the list after building'
+        type: boolean
+        default: false
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Resolve phase
+        id: phase
+        run: |
+          python -m mmd.cli phase | tee phase.json
+          echo "phase=$(jq -r .phase phase.json)" >> "$GITHUB_OUTPUT"
+          echo "target=$(jq -r .target_session phase.json)" >> "$GITHUB_OUTPUT"
+        env:
+          PYTHONPATH: src
+
+      - name: Run pipeline
+        env:
+          PYTHONPATH: src
+          POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.session }}" ]; then
+            python -m mmd.cli -v build --session "${{ inputs.session }}" \
+              ${{ inputs.lock == true && '--lock' || '' }}
+          else
+            python -m mmd.cli -v run
+          fi
+
+      - name: Commit artifacts
+        run: |
+          git config user.name  'mmd-bot'
+          git config user.email 'mmd-bot@users.noreply.github.com'
+          git add data site/feed.json
+          if git diff --cached --quiet; then
+            echo 'no changes'
+          else
+            git commit -m "${{ steps.phase.outputs.phase }}: ${{ steps.phase.outputs.target }}"
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" || true
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: run
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
