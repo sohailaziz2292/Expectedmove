@@ -1,0 +1,79 @@
+name: reorganize
+
+# One-time repair. Browser upload flattened every file to the repo root;
+# this rebuilds the package layout server-side and commits it.
+# Run it once, confirm the tree, then delete this file.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild the folder structure
+        run: |
+          set -e
+          git config user.name  'mmd-bot'
+          git config user.email 'mmd-bot@users.noreply.github.com'
+          mkdir -p src/mmd/providers site tests scripts
+
+          for f in cli.py clock.py collect.py config.py features.py \
+                   model.py publish.py score.py; do
+            [ -f "$f" ] && git mv -f "$f" "src/mmd/$f" || true
+          done
+
+          for f in base.py polygon.py finnhub.py fmp.py; do
+            [ -f "$f" ] && git mv -f "$f" "src/mmd/providers/$f" || true
+          done
+
+          for f in index.html app.js styles.css feed.json; do
+            [ -f "$f" ] && git mv -f "$f" "site/$f" || true
+          done
+
+          for f in test_clock.py test_model.py test_publish.py; do
+            [ -f "$f" ] && git mv -f "$f" "tests/$f" || true
+          done
+
+          [ -f make_sample.py ] && git mv -f make_sample.py scripts/make_sample.py || true
+
+          # Duplicate workflow copies and stale sample data at the root
+          git rm -q -f --ignore-unmatch pipeline.yml lock-guard.yml ci.yml \
+            predictions.json scorecard.json __init__.py
+
+          # Both __init__.py files collided on upload, so write them fresh
+          printf '"""Pre-market expected-move watchlist pipeline."""\n\n__version__ = "0.3.0"\n' \
+            > src/mmd/__init__.py
+
+          cat > src/mmd/providers/__init__.py <<'PY'
+          from .base import Bar, EarningsEvent, NotConfigured, Provider, ProviderError
+          from .finnhub import Finnhub, try_finnhub
+          from .fmp import FMP, try_fmp
+          from .polygon import Polygon, try_polygon
+
+          __all__ = [
+              "Bar", "EarningsEvent", "Provider", "ProviderError", "NotConfigured",
+              "Polygon", "try_polygon", "Finnhub", "try_finnhub", "FMP", "try_fmp",
+          ]
+          PY
+          sed -i 's/^          //' src/mmd/providers/__init__.py
+
+          touch site/.nojekyll
+          printf '__pycache__/\n*.py[cod]\n.venv/\n.env\n.pytest_cache/\n.ruff_cache/\n' > .gitignore
+
+      - name: Verify the import works
+        run: |
+          PYTHONPATH=src python -c "import mmd, mmd.cli, mmd.providers; print('package imports OK')"
+
+      - name: Commit
+        run: |
+          git add -A
+          git diff --cached --quiet && echo 'nothing to do' || {
+            git commit -m 'Rebuild package layout after flattened upload'
+            git push
+          }
