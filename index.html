@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expected Move — pre-market watchlist</title>
+<meta name="description" content="A ranked list of the stocks most likely to move today, frozen at 8:25 AM ET and scored after the close.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#list">Skip to the list</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">US equities · ranked by expected absolute move</p>
+    <h1>Expected<span>Move</span></h1>
+    <p class="lede">
+      The names most likely to travel furthest in today's session — magnitude only,
+      no directional call. Built overnight, frozen at 8:25&nbsp;AM&nbsp;ET, graded
+      against what actually happened after the close.
+    </p>
+  </div>
+</header>
+
+<!-- Signature element: the publication cycle, 5pm ET to 4pm ET -->
+<section class="rail-section" aria-labelledby="rail-h">
+  <div class="wrap">
+    <h2 class="sr-only" id="rail-h">Where we are in the publication cycle</h2>
+    <div class="rail" id="rail" role="img" aria-describedby="rail-status">
+      <div class="rail-track">
+        <div class="seg" data-phase="draft"   style="--from:0;--to:12.5"><span>Draft opens</span></div>
+        <div class="seg" data-phase="refresh" style="--from:12.5;--to:52"><span>Overnight refresh</span></div>
+        <div class="seg" data-phase="final"   style="--from:52;--to:60"><span>Final pass</span></div>
+        <div class="seg" data-phase="locked"  style="--from:60;--to:64.5"><span>Locked</span></div>
+        <div class="seg" data-phase="session" style="--from:64.5;--to:92"><span>Market open</span></div>
+        <div class="seg" data-phase="settle"  style="--from:92;--to:100"><span>Scoring</span></div>
+        <div class="notch" style="--at:60"><b>8:25</b><i>freeze</i></div>
+        <div class="marker" id="marker" style="--at:0"></div>
+      </div>
+      <div class="rail-ends">
+        <span>5:00 PM ET</span><span>8:30 AM</span><span>4:00 PM</span>
+      </div>
+    </div>
+
+    <div class="status" id="rail-status">
+      <p class="status-label" id="phaseLabel">Loading</p>
+      <p class="status-detail" id="phaseDetail">Reading the current publication phase.</p>
+      <p class="countdown" id="countdown" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="banner" id="banner" hidden></div>
+</div>
+
+<main class="wrap" id="list">
+  <section aria-labelledby="list-h">
+    <div class="section-head">
+      <h2 id="list-h">Today's list</h2>
+      <p class="meta" id="listMeta"></p>
+    </div>
+
+    <p class="scale-key">
+      Bars show the <b>expected range</b>, not a point estimate. A wider bar means
+      less confidence, not a bigger move.
+    </p>
+
+    <ol class="rows" id="rows"></ol>
+    <p class="empty" id="empty" hidden></p>
+  </section>
+
+  <section aria-labelledby="acc-h" class="accuracy">
+    <div class="section-head">
+      <h2 id="acc-h">Does it work?</h2>
+      <p class="meta">Rolling average across every session published so far.</p>
+    </div>
+    <dl class="metrics" id="metrics"></dl>
+    <p class="metric-note">
+      Rank correlation is the one that matters. The product is an ordering, so
+      getting the order right is the job; the absolute level is secondary.
+      A value near zero means the list is no better than picking at random.
+    </p>
+    <div id="scorecard"></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p class="disclaim">
+    Research output, not investment advice. Expected-move estimates are model
+    output and are frequently wrong. Nobody here is your financial adviser, and
+    a name appearing on this list is not a reason to trade it.
+  </p>
+  <p class="colophon">
+    <span id="builtAt"></span> ·
+    <a href="https://github.com/OWNER/REPO">Source and method</a> ·
+    <a href="feed.json">Raw feed</a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

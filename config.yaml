@@ -1,0 +1,38 @@
+# Tunables. Model coefficients live in src/mmd/model.py and are re-fit with
+# `mmd backtest`; anything here is an operational knob, safe to change.
+
+list_size: 25              # rows published per session
+max_per_catalyst: 12       # stops one earnings-heavy day crowding out everything
+min_price: 1.50            # sub-$1.50 "movers" are usually one print wide
+min_dollar_volume: 5000000 # $5M/day — below this, a 40% move is untradeable
+history_days: 60           # lookback for ATR and realized vol
+universe_scan_limit: 600   # cap on candidates before scoring, for rate limits
+
+# Names that reprice on scheduled macro data rather than company news.
+# Kept short on purpose: a long list dilutes the ranking with beta.
+macro_sensitive:
+  - SPY
+  - QQQ
+  - IWM
+  - TLT
+  - KRE      # regional banks — most rate-sensitive equity sleeve
+  - XLE
+  - GLD
+  - NVDA
+  - TSLA
+
+# Scheduled releases that move the whole tape. Dates come from the BLS and BEA
+# release calendars; `scripts/refresh_macro.py` regenerates this block.
+macro_releases:
+  Employment Situation:
+    time_et: "08:30"
+    source: "BLS"
+    dates: ["2026-08-07", "2026-09-04", "2026-10-02", "2026-11-06", "2026-12-04"]
+  CPI:
+    time_et: "08:30"
+    source: "BLS"
+    dates: ["2026-08-12", "2026-09-11", "2026-10-13", "2026-11-12", "2026-12-10"]
+  FOMC decision:
+    time_et: "14:00"
+    source: "Federal Reserve"
+    dates: ["2026-09-16", "2026-11-04", "2026-12-16"]

@@ -1,0 +1,133 @@
+{
+  "session": "2026-08-06",
+  "scored_at_et": "2026-08-06T23:41:58.701812-04:00",
+  "n_predictions": 12,
+  "n_scored": 12,
+  "hit_rate": 0.75,
+  "rank_ic": 0.41,
+  "mae_pp": 2.6,
+  "median_realized_pct": 5.1,
+  "top5_median_pct": 7.8,
+  "rows": [
+    {
+      "symbol": "AXON",
+      "rank": 1,
+      "predicted_pct": 13.43,
+      "realized_pct": 9.61,
+      "realized_range_pct": 13.45,
+      "in_band": true,
+      "error_pp": -3.82,
+      "status": "scored"
+    },
+    {
+      "symbol": "AFRM",
+      "rank": 2,
+      "predicted_pct": 10.58,
+      "realized_pct": 16.43,
+      "realized_range_pct": 23.0,
+      "in_band": true,
+      "error_pp": 5.85,
+      "status": "scored"
+    },
+    {
+      "symbol": "TTWO",
+      "rank": 3,
+      "predicted_pct": 8.94,
+      "realized_pct": 2.18,
+      "realized_range_pct": 3.05,
+      "in_band": false,
+      "error_pp": -6.76,
+      "status": "scored"
+    },
+    {
+      "symbol": "CELH",
+      "rank": 4,
+      "predicted_pct": 8.45,
+      "realized_pct": 12.07,
+      "realized_range_pct": 16.9,
+      "in_band": true,
+      "error_pp": 3.62,
+      "status": "scored"
+    },
+    {
+      "symbol": "SMCI",
+      "rank": 5,
+      "predicted_pct": 7.71,
+      "realized_pct": 11.1,
+      "realized_range_pct": 15.54,
+      "in_band": true,
+      "error_pp": 3.39,
+      "status": "scored"
+    },
+    {
+      "symbol": "LYFT",
+      "rank": 6,
+      "predicted_pct": 7.51,
+      "realized_pct": 9.31,
+      "realized_range_pct": 13.03,
+      "in_band": true,
+      "error_pp": 1.8,
+      "status": "scored"
+    },
+    {
+      "symbol": "PLTR",
+      "rank": 7,
+      "predicted_pct": 6.87,
+      "realized_pct": 8.22,
+      "realized_range_pct": 11.51,
+      "in_band": true,
+      "error_pp": 1.35,
+      "status": "scored"
+    },
+    {
+      "symbol": "ROKU",
+      "rank": 8,
+      "predicted_pct": 6.81,
+      "realized_pct": 1.44,
+      "realized_range_pct": 2.02,
+      "in_band": false,
+      "error_pp": -5.37,
+      "status": "scored"
+    },
+    {
+      "symbol": "SOFI",
+      "rank": 9,
+      "predicted_pct": 6.62,
+      "realized_pct": 5.13,
+      "realized_range_pct": 7.18,
+      "in_band": true,
+      "error_pp": -1.49,
+      "status": "scored"
+    },
+    {
+      "symbol": "PATH",
+      "rank": 10,
+      "predicted_pct": 6.41,
+      "realized_pct": 8.76,
+      "realized_range_pct": 12.26,
+      "in_band": true,
+      "error_pp": 2.35,
+      "status": "scored"
+    },
+    {
+      "symbol": "UPST",
+      "rank": 11,
+      "predicted_pct": 5.9,
+      "realized_pct": 0.54,
+      "realized_range_pct": 0.76,
+      "in_band": false,
+      "error_pp": -5.36,
+      "status": "scored"
+    },
+    {
+      "symbol": "RIVN",
+      "rank": 12,
+      "predicted_pct": 5.08,
+      "realized_pct": 5.19,
+      "realized_range_pct": 7.27,
+      "in_band": true,
+      "error_pp": 0.11,
+      "status": "scored"
+    }
+  ]
+}
