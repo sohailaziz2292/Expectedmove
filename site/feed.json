@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-16T23:49:35.386000-04:00",
+  "built_at_et": "2026-08-17T02:20:39.857504-04:00",
   "cycle": {
-    "at_et": "2026-08-16T23:49:35.385727-04:00",
+    "at_et": "2026-08-17T02:20:39.857263-04:00",
     "phase": "refresh",
     "target_session": "2026-08-17",
     "display_session": "2026-08-17",
     "locked": false
   },
-  "seconds_to_lock": 30924,
+  "seconds_to_lock": 21860,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-17",
     "prior_session": "2026-08-14",
-    "generated_at_et": "2026-08-16T23:49:35.384550-04:00",
+    "generated_at_et": "2026-08-17T02:20:39.856170-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 152,
-      "scored": 51,
-      "skipped": 101,
+      "scored": 52,
+      "skipped": 100,
       "published": 15
     },
     "macro_events": [],
@@ -173,8 +173,27 @@
         "note": "22.8x normal volume"
       },
       {
-        "symbol": "KLC",
+        "symbol": "SIF",
         "rank": 8,
+        "expected_move_pct": 38.07,
+        "band": [
+          12.98,
+          63.16
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 10.334,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.188
+        },
+        "note": "Reports before the open; 2.8x normal volume"
+      },
+      {
+        "symbol": "KLC",
+        "rank": 9,
         "expected_move_pct": 32.09,
         "band": [
           10.94,
@@ -193,7 +212,7 @@
       },
       {
         "symbol": "AAOG",
-        "rank": 9,
+        "rank": 10,
         "expected_move_pct": 30.92,
         "band": [
           10.54,
@@ -212,7 +231,7 @@
       },
       {
         "symbol": "NUAI",
-        "rank": 10,
+        "rank": 11,
         "expected_move_pct": 30.48,
         "band": [
           10.39,
@@ -231,7 +250,7 @@
       },
       {
         "symbol": "MF",
-        "rank": 11,
+        "rank": 12,
         "expected_move_pct": 29.64,
         "band": [
           10.11,
@@ -250,7 +269,7 @@
       },
       {
         "symbol": "EMAT",
-        "rank": 12,
+        "rank": 13,
         "expected_move_pct": 28.96,
         "band": [
           9.88,
@@ -269,7 +288,7 @@
       },
       {
         "symbol": "UMAL",
-        "rank": 13,
+        "rank": 14,
         "expected_move_pct": 28.08,
         "band": [
           9.57,
@@ -285,25 +304,6 @@
           "rvol_bump": 1.231
         },
         "note": "3.6x normal volume"
-      },
-      {
-        "symbol": "MNTS",
-        "rank": 14,
-        "expected_move_pct": 27.51,
-        "band": [
-          9.38,
-          45.64
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 7.994,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.11
-        },
-        "note": "Reports before the open"
       },
       {
         "symbol": "BANL",
