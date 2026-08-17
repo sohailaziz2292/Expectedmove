@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-08-17",
   "prior_session": "2026-08-14",
-  "generated_at_et": "2026-08-17T02:20:39.856170-04:00",
+  "generated_at_et": "2026-08-17T04:45:09.180313-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 152,
-    "scored": 52,
-    "skipped": 100,
+    "scored": 53,
+    "skipped": 99,
     "published": 15
   },
   "macro_events": [],
@@ -289,23 +289,23 @@
       "note": "3.6x normal volume"
     },
     {
-      "symbol": "BANL",
+      "symbol": "MNTS",
       "rank": 15,
-      "expected_move_pct": 27.42,
+      "expected_move_pct": 27.51,
       "band": [
-        9.35,
-        45.48
+        9.38,
+        45.64
       ],
       "confidence": 0.62,
       "catalysts": [
-        "momentum_carryover"
+        "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 13.57,
-        "catalyst_weight": 1.4,
-        "rvol_bump": 1.443
+        "baseline_vol": 7.994,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.11
       },
-      "note": "11.7x normal volume"
+      "note": "Reports before the open"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
