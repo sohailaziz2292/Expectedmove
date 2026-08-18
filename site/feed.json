@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-18T06:15:05.529131-04:00",
+  "built_at_et": "2026-08-18T07:17:03.015581-04:00",
   "cycle": {
-    "at_et": "2026-08-18T06:15:05.528894-04:00",
+    "at_et": "2026-08-18T07:17:03.015418-04:00",
     "phase": "refresh",
     "target_session": "2026-08-18",
     "display_session": "2026-08-18",
     "locked": false
   },
-  "seconds_to_lock": 7794,
+  "seconds_to_lock": 4076,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-18",
     "prior_session": "2026-08-17",
-    "generated_at_et": "2026-08-18T06:15:05.527878-04:00",
+    "generated_at_et": "2026-08-18T07:17:03.014599-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -285,27 +285,8 @@
         "note": "31.1x normal volume"
       },
       {
-        "symbol": "FN",
-        "rank": 14,
-        "expected_move_pct": 22.34,
-        "band": [
-          7.62,
-          37.07
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_amc_prior"
-        ],
-        "drivers": {
-          "baseline_vol": 6.774,
-          "catalyst_weight": 2.9,
-          "rvol_bump": 1.137
-        },
-        "note": "Reported after yesterday's close; 2.1x normal volume"
-      },
-      {
         "symbol": "ZBIO",
-        "rank": 15,
+        "rank": 14,
         "expected_move_pct": 15.7,
         "band": [
           5.35,
@@ -317,6 +298,24 @@
         ],
         "drivers": {
           "baseline_vol": 5.066,
+          "catalyst_weight": 3.1
+        },
+        "note": "Reports before the open"
+      },
+      {
+        "symbol": "DRTS",
+        "rank": 15,
+        "expected_move_pct": 14.91,
+        "band": [
+          5.08,
+          24.74
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 4.81,
           "catalyst_weight": 3.1
         },
         "note": "Reports before the open"
