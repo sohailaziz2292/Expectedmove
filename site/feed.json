@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-18T02:07:01.918035-04:00",
+  "built_at_et": "2026-08-18T04:21:35.066975-04:00",
   "cycle": {
-    "at_et": "2026-08-18T02:07:01.917754-04:00",
+    "at_et": "2026-08-18T04:21:35.066691-04:00",
     "phase": "refresh",
     "target_session": "2026-08-18",
     "display_session": "2026-08-18",
     "locked": false
   },
-  "seconds_to_lock": 22678,
+  "seconds_to_lock": 14604,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-18",
     "prior_session": "2026-08-17",
-    "generated_at_et": "2026-08-18T02:07:01.916939-04:00",
+    "generated_at_et": "2026-08-18T04:21:35.059652-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 106,
-      "scored": 56,
-      "skipped": 50,
+      "scored": 57,
+      "skipped": 49,
       "published": 15
     },
     "macro_events": [],
@@ -191,8 +191,27 @@
         "note": "182.5x normal volume"
       },
       {
-        "symbol": "AXTL",
+        "symbol": "CUE",
         "rank": 9,
+        "expected_move_pct": 37.58,
+        "band": [
+          12.81,
+          62.34
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 10.794,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.123
+        },
+        "note": "Reports before the open"
+      },
+      {
+        "symbol": "AXTL",
+        "rank": 10,
         "expected_move_pct": 36.46,
         "band": [
           12.43,
@@ -211,7 +230,7 @@
       },
       {
         "symbol": "AXTU",
-        "rank": 10,
+        "rank": 11,
         "expected_move_pct": 36.38,
         "band": [
           12.41,
@@ -230,7 +249,7 @@
       },
       {
         "symbol": "AXTX",
-        "rank": 11,
+        "rank": 12,
         "expected_move_pct": 32.49,
         "band": [
           11.08,
@@ -248,7 +267,7 @@
       },
       {
         "symbol": "CDTG",
-        "rank": 12,
+        "rank": 13,
         "expected_move_pct": 30.79,
         "band": [
           10.5,
@@ -264,25 +283,6 @@
           "rvol_bump": 1.447
         },
         "note": "31.1x normal volume"
-      },
-      {
-        "symbol": "FN",
-        "rank": 13,
-        "expected_move_pct": 22.34,
-        "band": [
-          7.62,
-          37.07
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_amc_prior"
-        ],
-        "drivers": {
-          "baseline_vol": 6.774,
-          "catalyst_weight": 2.9,
-          "rvol_bump": 1.137
-        },
-        "note": "Reported after yesterday's close; 2.1x normal volume"
       },
       {
         "symbol": "VNET",
@@ -304,23 +304,23 @@
         "note": "Reports before the open; 2.2x normal volume"
       },
       {
-        "symbol": "KYTX",
+        "symbol": "KLAR",
         "rank": 15,
-        "expected_move_pct": 16.4,
+        "expected_move_pct": 16.04,
         "band": [
-          5.59,
-          27.21
+          5.47,
+          26.61
         ],
         "confidence": 0.62,
         "catalysts": [
           "earnings_bmo"
         ],
         "drivers": {
-          "baseline_vol": 4.806,
+          "baseline_vol": 4.23,
           "catalyst_weight": 3.1,
-          "rvol_bump": 1.101
+          "rvol_bump": 1.223
         },
-        "note": "Reports before the open"
+        "note": "Reports before the open; 3.5x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
