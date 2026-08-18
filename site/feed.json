@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-18T04:21:35.066975-04:00",
+  "built_at_et": "2026-08-18T06:15:05.529131-04:00",
   "cycle": {
-    "at_et": "2026-08-18T04:21:35.066691-04:00",
+    "at_et": "2026-08-18T06:15:05.528894-04:00",
     "phase": "refresh",
     "target_session": "2026-08-18",
     "display_session": "2026-08-18",
     "locked": false
   },
-  "seconds_to_lock": 14604,
+  "seconds_to_lock": 7794,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-18",
     "prior_session": "2026-08-17",
-    "generated_at_et": "2026-08-18T04:21:35.059652-04:00",
+    "generated_at_et": "2026-08-18T06:15:05.527878-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 106,
-      "scored": 57,
-      "skipped": 49,
+      "scored": 54,
+      "skipped": 52,
       "published": 15
     },
     "macro_events": [],
@@ -285,42 +285,41 @@
         "note": "31.1x normal volume"
       },
       {
-        "symbol": "VNET",
+        "symbol": "FN",
         "rank": 14,
-        "expected_move_pct": 19.12,
+        "expected_move_pct": 22.34,
         "band": [
-          6.52,
-          31.73
+          7.62,
+          37.07
         ],
         "confidence": 0.62,
         "catalysts": [
-          "earnings_bmo"
+          "earnings_amc_prior"
         ],
         "drivers": {
-          "baseline_vol": 5.411,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.14
+          "baseline_vol": 6.774,
+          "catalyst_weight": 2.9,
+          "rvol_bump": 1.137
         },
-        "note": "Reports before the open; 2.2x normal volume"
+        "note": "Reported after yesterday's close; 2.1x normal volume"
       },
       {
-        "symbol": "KLAR",
+        "symbol": "ZBIO",
         "rank": 15,
-        "expected_move_pct": 16.04,
+        "expected_move_pct": 15.7,
         "band": [
-          5.47,
-          26.61
+          5.35,
+          26.05
         ],
         "confidence": 0.62,
         "catalysts": [
           "earnings_bmo"
         ],
         "drivers": {
-          "baseline_vol": 4.23,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.223
+          "baseline_vol": 5.066,
+          "catalyst_weight": 3.1
         },
-        "note": "Reports before the open; 3.5x normal volume"
+        "note": "Reports before the open"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
