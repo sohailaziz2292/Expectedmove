@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-19T04:24:05.342487-04:00",
+  "built_at_et": "2026-08-19T06:16:05.786581-04:00",
   "cycle": {
-    "at_et": "2026-08-19T04:24:05.342200-04:00",
+    "at_et": "2026-08-19T06:16:05.786329-04:00",
     "phase": "refresh",
     "target_session": "2026-08-19",
     "display_session": "2026-08-19",
     "locked": false
   },
-  "seconds_to_lock": 14454,
+  "seconds_to_lock": 7734,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-19",
     "prior_session": "2026-08-18",
-    "generated_at_et": "2026-08-19T04:24:05.340872-04:00",
+    "generated_at_et": "2026-08-19T06:16:05.785387-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 112,
-      "scored": 58,
-      "skipped": 54,
+      "scored": 59,
+      "skipped": 53,
       "published": 15
     },
     "macro_events": [],
@@ -115,27 +115,8 @@
         "note": "2167.4x normal volume"
       },
       {
-        "symbol": "MSS",
-        "rank": 5,
-        "expected_move_pct": 50.01,
-        "band": [
-          17.05,
-          82.97
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 11.148,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.447
-        },
-        "note": "Reports before the open; 28.8x normal volume"
-      },
-      {
         "symbol": "IPST",
-        "rank": 6,
+        "rank": 5,
         "expected_move_pct": 49.23,
         "band": [
           16.79,
@@ -154,7 +135,7 @@
       },
       {
         "symbol": "AXTU",
-        "rank": 7,
+        "rank": 6,
         "expected_move_pct": 43.4,
         "band": [
           14.8,
@@ -173,7 +154,7 @@
       },
       {
         "symbol": "AXTL",
-        "rank": 8,
+        "rank": 7,
         "expected_move_pct": 42.68,
         "band": [
           14.55,
@@ -192,7 +173,7 @@
       },
       {
         "symbol": "AXTX",
-        "rank": 9,
+        "rank": 8,
         "expected_move_pct": 42.02,
         "band": [
           14.33,
@@ -211,7 +192,7 @@
       },
       {
         "symbol": "CAST",
-        "rank": 10,
+        "rank": 9,
         "expected_move_pct": 39.91,
         "band": [
           13.61,
@@ -230,7 +211,7 @@
       },
       {
         "symbol": "FNG",
-        "rank": 11,
+        "rank": 10,
         "expected_move_pct": 37.75,
         "band": [
           12.87,
@@ -249,7 +230,7 @@
       },
       {
         "symbol": "AAOG",
-        "rank": 12,
+        "rank": 11,
         "expected_move_pct": 37.3,
         "band": [
           12.72,
@@ -268,7 +249,7 @@
       },
       {
         "symbol": "AAOX",
-        "rank": 13,
+        "rank": 12,
         "expected_move_pct": 34.76,
         "band": [
           11.85,
@@ -285,8 +266,45 @@
         "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "MRCY",
+        "symbol": "POET",
+        "rank": 13,
+        "expected_move_pct": 26.76,
+        "band": [
+          9.12,
+          44.39
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 8.631,
+          "catalyst_weight": 3.1
+        },
+        "note": "Reports before the open"
+      },
+      {
+        "symbol": "TOYO",
         "rank": 14,
+        "expected_move_pct": 20.76,
+        "band": [
+          7.08,
+          34.43
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 6.226,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.075
+        },
+        "note": "Reports before the open"
+      },
+      {
+        "symbol": "MRCY",
+        "rank": 15,
         "expected_move_pct": 20.04,
         "band": [
           6.83,
@@ -302,24 +320,6 @@
           "rvol_bump": 1.273
         },
         "note": "Reported after yesterday's close; 4.6x normal volume"
-      },
-      {
-        "symbol": "SGMT",
-        "rank": 15,
-        "expected_move_pct": 18.03,
-        "band": [
-          6.15,
-          29.92
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 5.817,
-          "catalyst_weight": 3.1
-        },
-        "note": "Reports before the open"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
