@@ -2,10 +2,10 @@
   "schema_version": 3,
   "target_session": "2026-08-19",
   "prior_session": "2026-08-18",
-  "generated_at_et": "2026-08-19T07:17:00.519019-04:00",
-  "phase": "refresh",
-  "locked": false,
-  "locked_at_et": null,
+  "generated_at_et": "2026-08-19T08:13:06.631408-04:00",
+  "phase": "final",
+  "locked": true,
+  "locked_at_et": "2026-08-19T08:13:06.631809-04:00",
   "sources": [
     "finnhub",
     "polygon"
