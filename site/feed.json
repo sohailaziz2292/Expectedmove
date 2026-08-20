@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-20T07:19:04.685839-04:00",
+  "built_at_et": "2026-08-20T08:15:11.201514-04:00",
   "cycle": {
-    "at_et": "2026-08-20T07:19:04.685629-04:00",
-    "phase": "refresh",
+    "at_et": "2026-08-20T08:15:11.201279-04:00",
+    "phase": "final",
     "target_session": "2026-08-20",
     "display_session": "2026-08-20",
     "locked": false
   },
-  "seconds_to_lock": 3955,
+  "seconds_to_lock": 588,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,10 +19,10 @@
     "schema_version": 3,
     "target_session": "2026-08-20",
     "prior_session": "2026-08-19",
-    "generated_at_et": "2026-08-20T07:19:04.684425-04:00",
-    "phase": "refresh",
-    "locked": false,
-    "locked_at_et": null,
+    "generated_at_et": "2026-08-20T08:15:11.200298-04:00",
+    "phase": "final",
+    "locked": true,
+    "locked_at_et": "2026-08-20T08:15:11.200669-04:00",
     "sources": [
       "finnhub",
       "polygon"
@@ -31,9 +31,9 @@
       "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-08-19&to=2026-08-20"
     ],
     "counts": {
-      "universe": 92,
-      "scored": 61,
-      "skipped": 31,
+      "universe": 91,
+      "scored": 58,
+      "skipped": 33,
       "published": 15
     },
     "macro_events": [],
@@ -305,23 +305,23 @@
         "note": "39.1x normal volume"
       },
       {
-        "symbol": "EVAX",
+        "symbol": "COTY",
         "rank": 15,
-        "expected_move_pct": 22.13,
+        "expected_move_pct": 15.06,
         "band": [
-          7.55,
-          36.72
+          5.14,
+          24.99
         ],
         "confidence": 0.62,
         "catalysts": [
-          "earnings_bmo"
+          "earnings_amc_prior"
         ],
         "drivers": {
-          "baseline_vol": 4.933,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.447
+          "baseline_vol": 4.576,
+          "catalyst_weight": 2.9,
+          "rvol_bump": 1.135
         },
-        "note": "Reports before the open; 515.3x normal volume"
+        "note": "Reported after yesterday's close; 2.1x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
@@ -335,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Refreshing overnight",
-    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
+    "label": "Final pass",
+    "detail": "Last rebuild before the 8:25 ET freeze."
   }
 }
