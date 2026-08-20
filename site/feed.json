@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-20T02:09:11.629129-04:00",
+  "built_at_et": "2026-08-20T04:24:52.295046-04:00",
   "cycle": {
-    "at_et": "2026-08-20T02:09:11.628870-04:00",
+    "at_et": "2026-08-20T04:24:52.294781-04:00",
     "phase": "refresh",
     "target_session": "2026-08-20",
     "display_session": "2026-08-20",
     "locked": false
   },
-  "seconds_to_lock": 22548,
+  "seconds_to_lock": 14407,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-20",
     "prior_session": "2026-08-19",
-    "generated_at_et": "2026-08-20T02:09:11.628015-04:00",
+    "generated_at_et": "2026-08-20T04:24:52.293582-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 92,
-      "scored": 58,
-      "skipped": 34,
+      "scored": 61,
+      "skipped": 31,
       "published": 15
     },
     "macro_events": [],
@@ -305,23 +305,23 @@
         "note": "39.1x normal volume"
       },
       {
-        "symbol": "COTY",
+        "symbol": "EVAX",
         "rank": 15,
-        "expected_move_pct": 15.06,
+        "expected_move_pct": 22.13,
         "band": [
-          5.14,
-          24.99
+          7.55,
+          36.72
         ],
         "confidence": 0.62,
         "catalysts": [
-          "earnings_amc_prior"
+          "earnings_bmo"
         ],
         "drivers": {
-          "baseline_vol": 4.576,
-          "catalyst_weight": 2.9,
-          "rvol_bump": 1.135
+          "baseline_vol": 4.933,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.447
         },
-        "note": "Reported after yesterday's close; 2.1x normal volume"
+        "note": "Reports before the open; 515.3x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
