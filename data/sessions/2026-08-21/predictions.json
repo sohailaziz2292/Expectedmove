@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-08-21",
   "prior_session": "2026-08-20",
-  "generated_at_et": "2026-08-21T04:31:23.196091-04:00",
+  "generated_at_et": "2026-08-21T06:15:00.857347-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 52,
-    "scored": 47,
-    "skipped": 5,
+    "scored": 48,
+    "skipped": 4,
     "published": 15
   },
   "macro_events": [],
@@ -269,42 +269,42 @@
       "note": "Reports before the open; 3.7x normal volume"
     },
     {
-      "symbol": "FLO",
+      "symbol": "OSIS",
       "rank": 14,
-      "expected_move_pct": 10.85,
+      "expected_move_pct": 9.6,
       "band": [
-        3.7,
-        18.01
+        3.27,
+        15.93
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_amc_prior"
       ],
       "drivers": {
-        "baseline_vol": 3.32,
+        "baseline_vol": 2.846,
         "catalyst_weight": 2.9,
-        "rvol_bump": 1.127
+        "rvol_bump": 1.163
       },
-      "note": "Reported after yesterday's close; 2.0x normal volume"
+      "note": "Reported after yesterday's close; 2.5x normal volume"
     },
     {
-      "symbol": "BJ",
+      "symbol": "PSEC",
       "rank": 15,
-      "expected_move_pct": 8.02,
+      "expected_move_pct": 9.2,
       "band": [
-        2.73,
-        13.3
+        3.14,
+        15.27
       ],
       "confidence": 0.62,
       "catalysts": [
-        "earnings_bmo"
+        "earnings_amc_prior"
       ],
       "drivers": {
-        "baseline_vol": 2.092,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.236
+        "baseline_vol": 3.038,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.045
       },
-      "note": "Reports before the open; 3.7x normal volume"
+      "note": "Reported after yesterday's close"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
