@@ -2,10 +2,10 @@
   "schema_version": 3,
   "target_session": "2026-08-21",
   "prior_session": "2026-08-20",
-  "generated_at_et": "2026-08-21T07:14:05.356252-04:00",
-  "phase": "refresh",
-  "locked": false,
-  "locked_at_et": null,
+  "generated_at_et": "2026-08-21T08:09:11.592126-04:00",
+  "phase": "final",
+  "locked": true,
+  "locked_at_et": "2026-08-21T08:09:11.592447-04:00",
   "sources": [
     "finnhub",
     "polygon"
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 52,
-    "scored": 49,
-    "skipped": 3,
+    "scored": 47,
+    "skipped": 5,
     "published": 15
   },
   "macro_events": [],
@@ -288,23 +288,23 @@
       "note": "Reported after yesterday's close; 2.0x normal volume"
     },
     {
-      "symbol": "OSIS",
+      "symbol": "BJ",
       "rank": 15,
-      "expected_move_pct": 9.6,
+      "expected_move_pct": 8.02,
       "band": [
-        3.27,
-        15.93
+        2.73,
+        13.3
       ],
       "confidence": 0.62,
       "catalysts": [
-        "earnings_amc_prior"
+        "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 2.846,
-        "catalyst_weight": 2.9,
-        "rvol_bump": 1.163
+        "baseline_vol": 2.092,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.236
       },
-      "note": "Reported after yesterday's close; 2.5x normal volume"
+      "note": "Reports before the open; 3.7x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
