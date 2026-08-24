@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-24T08:14:03.850290-04:00",
+  "built_at_et": "2026-08-24T10:26:10.353628-04:00",
   "cycle": {
-    "at_et": "2026-08-24T08:14:03.849971-04:00",
-    "phase": "final",
+    "at_et": "2026-08-24T10:26:10.353339-04:00",
+    "phase": "session",
     "target_session": "2026-08-24",
     "display_session": "2026-08-24",
-    "locked": false
+    "locked": true
   },
-  "seconds_to_lock": 656,
+  "seconds_to_lock": 79129,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -335,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Final pass",
-    "detail": "Last rebuild before the 8:25 ET freeze."
+    "label": "Market open",
+    "detail": "Today's list, read-only. Tomorrow's opens at 5:00 PM ET."
   }
 }
