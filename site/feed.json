@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-25T02:10:01.054566-04:00",
+  "built_at_et": "2026-08-25T04:36:58.713472-04:00",
   "cycle": {
-    "at_et": "2026-08-25T02:10:01.054370-04:00",
+    "at_et": "2026-08-25T04:36:58.713237-04:00",
     "phase": "refresh",
     "target_session": "2026-08-25",
     "display_session": "2026-08-25",
     "locked": false
   },
-  "seconds_to_lock": 22498,
+  "seconds_to_lock": 13681,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-25",
     "prior_session": "2026-08-24",
-    "generated_at_et": "2026-08-25T02:10:01.053609-04:00",
+    "generated_at_et": "2026-08-25T04:36:58.712081-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -58,27 +58,8 @@
         "note": "2.6x normal volume"
       },
       {
-        "symbol": "DAIC",
-        "rank": 2,
-        "expected_move_pct": 61.06,
-        "band": [
-          20.82,
-          101.31
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 30.137,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.447
-        },
-        "note": "558.6x normal volume"
-      },
-      {
         "symbol": "AAOG",
-        "rank": 3,
+        "rank": 2,
         "expected_move_pct": 49.12,
         "band": [
           16.75,
@@ -97,7 +78,7 @@
       },
       {
         "symbol": "AAOX",
-        "rank": 4,
+        "rank": 3,
         "expected_move_pct": 47.58,
         "band": [
           16.23,
@@ -116,7 +97,7 @@
       },
       {
         "symbol": "BTCT",
-        "rank": 5,
+        "rank": 4,
         "expected_move_pct": 42.13,
         "band": [
           14.37,
@@ -135,7 +116,7 @@
       },
       {
         "symbol": "AAOZ",
-        "rank": 6,
+        "rank": 5,
         "expected_move_pct": 34.45,
         "band": [
           11.75,
@@ -154,7 +135,7 @@
       },
       {
         "symbol": "SDOT",
-        "rank": 7,
+        "rank": 6,
         "expected_move_pct": 34.24,
         "band": [
           11.68,
@@ -173,7 +154,7 @@
       },
       {
         "symbol": "XPON",
-        "rank": 8,
+        "rank": 7,
         "expected_move_pct": 29.0,
         "band": [
           9.89,
@@ -192,7 +173,7 @@
       },
       {
         "symbol": "PMI",
-        "rank": 9,
+        "rank": 8,
         "expected_move_pct": 27.62,
         "band": [
           9.42,
@@ -208,6 +189,25 @@
           "rvol_bump": 1.447
         },
         "note": "219.5x normal volume"
+      },
+      {
+        "symbol": "PICS",
+        "rank": 9,
+        "expected_move_pct": 23.7,
+        "band": [
+          8.08,
+          39.32
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_amc_prior"
+        ],
+        "drivers": {
+          "baseline_vol": 6.321,
+          "catalyst_weight": 2.9,
+          "rvol_bump": 1.293
+        },
+        "note": "Reported after yesterday's close; 5.1x normal volume"
       },
       {
         "symbol": "FVN",
@@ -267,8 +267,26 @@
         "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "VMET",
+        "symbol": "ASTX",
         "rank": 13,
+        "expected_move_pct": 20.44,
+        "band": [
+          6.97,
+          33.91
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 14.599,
+          "catalyst_weight": 1.4
+        },
+        "note": "Elevated baseline volatility"
+      },
+      {
+        "symbol": "VMET",
+        "rank": 14,
         "expected_move_pct": 15.54,
         "band": [
           5.3,
@@ -284,25 +302,6 @@
           "rvol_bump": 1.341
         },
         "note": "Reports before the open; 6.6x normal volume"
-      },
-      {
-        "symbol": "KSS",
-        "rank": 14,
-        "expected_move_pct": 14.74,
-        "band": [
-          5.03,
-          24.45
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 4.497,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.057
-        },
-        "note": "Reports before the open"
       },
       {
         "symbol": "ANF",
