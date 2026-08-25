@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-25T04:36:58.713472-04:00",
+  "built_at_et": "2026-08-25T07:14:02.115589-04:00",
   "cycle": {
-    "at_et": "2026-08-25T04:36:58.713237-04:00",
+    "at_et": "2026-08-25T07:14:02.115318-04:00",
     "phase": "refresh",
     "target_session": "2026-08-25",
     "display_session": "2026-08-25",
     "locked": false
   },
-  "seconds_to_lock": 13681,
+  "seconds_to_lock": 4257,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-25",
     "prior_session": "2026-08-24",
-    "generated_at_et": "2026-08-25T04:36:58.712081-04:00",
+    "generated_at_et": "2026-08-25T07:14:02.114324-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 72,
-      "scored": 49,
-      "skipped": 23,
+      "scored": 48,
+      "skipped": 24,
       "published": 15
     },
     "macro_events": [],
@@ -191,27 +191,8 @@
         "note": "219.5x normal volume"
       },
       {
-        "symbol": "PICS",
-        "rank": 9,
-        "expected_move_pct": 23.7,
-        "band": [
-          8.08,
-          39.32
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_amc_prior"
-        ],
-        "drivers": {
-          "baseline_vol": 6.321,
-          "catalyst_weight": 2.9,
-          "rvol_bump": 1.293
-        },
-        "note": "Reported after yesterday's close; 5.1x normal volume"
-      },
-      {
         "symbol": "FVN",
-        "rank": 10,
+        "rank": 9,
         "expected_move_pct": 22.45,
         "band": [
           7.66,
@@ -230,7 +211,7 @@
       },
       {
         "symbol": "SUJA",
-        "rank": 11,
+        "rank": 10,
         "expected_move_pct": 21.62,
         "band": [
           7.37,
@@ -249,7 +230,7 @@
       },
       {
         "symbol": "TEMT",
-        "rank": 12,
+        "rank": 11,
         "expected_move_pct": 20.97,
         "band": [
           7.15,
@@ -268,7 +249,7 @@
       },
       {
         "symbol": "ASTX",
-        "rank": 13,
+        "rank": 12,
         "expected_move_pct": 20.44,
         "band": [
           6.97,
@@ -286,7 +267,7 @@
       },
       {
         "symbol": "VMET",
-        "rank": 14,
+        "rank": 13,
         "expected_move_pct": 15.54,
         "band": [
           5.3,
@@ -305,7 +286,7 @@
       },
       {
         "symbol": "ANF",
-        "rank": 15,
+        "rank": 14,
         "expected_move_pct": 12.76,
         "band": [
           4.35,
@@ -321,6 +302,25 @@
           "rvol_bump": 1.039
         },
         "note": "Reports before the open"
+      },
+      {
+        "symbol": "FIVE",
+        "rank": 15,
+        "expected_move_pct": 11.51,
+        "band": [
+          3.92,
+          19.09
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 3.264,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.137
+        },
+        "note": "Reports before the open; 2.1x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
