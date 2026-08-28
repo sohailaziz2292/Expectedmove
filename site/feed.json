@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-28T00:40:01.693881-04:00",
+  "built_at_et": "2026-08-28T02:36:04.085542-04:00",
   "cycle": {
-    "at_et": "2026-08-28T00:40:01.693667-04:00",
+    "at_et": "2026-08-28T02:36:04.085304-04:00",
     "phase": "refresh",
     "target_session": "2026-08-28",
     "display_session": "2026-08-28",
     "locked": false
   },
-  "seconds_to_lock": 27898,
+  "seconds_to_lock": 20935,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-28",
     "prior_session": "2026-08-27",
-    "generated_at_et": "2026-08-28T00:40:01.693007-04:00",
+    "generated_at_et": "2026-08-28T02:36:04.084270-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 68,
-      "scored": 53,
-      "skipped": 15,
+      "scored": 56,
+      "skipped": 12,
       "published": 15
     },
     "macro_events": [],
@@ -77,8 +77,27 @@
         "note": "23.5x normal volume"
       },
       {
-        "symbol": "PPCB",
+        "symbol": "USDE",
         "rank": 3,
+        "expected_move_pct": 33.83,
+        "band": [
+          11.54,
+          56.13
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 16.697,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "43.5x normal volume"
+      },
+      {
+        "symbol": "PPCB",
+        "rank": 4,
         "expected_move_pct": 33.79,
         "band": [
           11.52,
@@ -97,7 +116,7 @@
       },
       {
         "symbol": "CELU",
-        "rank": 4,
+        "rank": 5,
         "expected_move_pct": 32.7,
         "band": [
           11.15,
@@ -116,7 +135,7 @@
       },
       {
         "symbol": "LGPS",
-        "rank": 5,
+        "rank": 6,
         "expected_move_pct": 23.94,
         "band": [
           8.16,
@@ -135,7 +154,7 @@
       },
       {
         "symbol": "OKTG",
-        "rank": 6,
+        "rank": 7,
         "expected_move_pct": 21.5,
         "band": [
           7.33,
@@ -154,7 +173,7 @@
       },
       {
         "symbol": "MRVL",
-        "rank": 7,
+        "rank": 8,
         "expected_move_pct": 20.0,
         "band": [
           6.82,
@@ -174,7 +193,7 @@
       },
       {
         "symbol": "IREN",
-        "rank": 8,
+        "rank": 9,
         "expected_move_pct": 19.88,
         "band": [
           6.78,
@@ -192,7 +211,7 @@
       },
       {
         "symbol": "RBRK",
-        "rank": 9,
+        "rank": 10,
         "expected_move_pct": 18.23,
         "band": [
           6.22,
@@ -211,7 +230,7 @@
       },
       {
         "symbol": "CRWL",
-        "rank": 10,
+        "rank": 11,
         "expected_move_pct": 18.13,
         "band": [
           6.18,
@@ -230,7 +249,7 @@
       },
       {
         "symbol": "GME.WS",
-        "rank": 11,
+        "rank": 12,
         "expected_move_pct": 17.94,
         "band": [
           6.12,
@@ -249,7 +268,7 @@
       },
       {
         "symbol": "BBW",
-        "rank": 12,
+        "rank": 13,
         "expected_move_pct": 17.87,
         "band": [
           6.09,
@@ -268,7 +287,7 @@
       },
       {
         "symbol": "WDAY",
-        "rank": 13,
+        "rank": 14,
         "expected_move_pct": 17.74,
         "band": [
           6.05,
@@ -287,7 +306,7 @@
       },
       {
         "symbol": "S",
-        "rank": 14,
+        "rank": 15,
         "expected_move_pct": 16.62,
         "band": [
           5.67,
@@ -303,24 +322,6 @@
           "rvol_bump": 1.217
         },
         "note": "Reported after yesterday's close; 3.3x normal volume"
-      },
-      {
-        "symbol": "FIGG",
-        "rank": 15,
-        "expected_move_pct": 16.59,
-        "band": [
-          5.66,
-          27.53
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 11.853,
-          "catalyst_weight": 1.4
-        },
-        "note": "Elevated baseline volatility"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
