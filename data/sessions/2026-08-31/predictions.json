@@ -4,8 +4,8 @@
   "prior_session": "2026-08-28",
   "generated_at_et": "2026-08-31T06:18:02.089341-04:00",
   "phase": "refresh",
-  "locked": false,
-  "locked_at_et": null,
+  "locked": true,
+  "locked_at_et": "2026-08-31T08:22:12.169515-04:00",
   "sources": [
     "finnhub",
     "polygon"

@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-31T06:18:02.090561-04:00",
+  "built_at_et": "2026-08-31T08:22:12.170340-04:00",
   "cycle": {
-    "at_et": "2026-08-31T06:18:02.090305-04:00",
-    "phase": "refresh",
+    "at_et": "2026-08-31T08:22:12.170127-04:00",
+    "phase": "final",
     "target_session": "2026-08-31",
     "display_session": "2026-08-31",
     "locked": false
   },
-  "seconds_to_lock": 7617,
+  "seconds_to_lock": 167,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -21,8 +21,8 @@
     "prior_session": "2026-08-28",
     "generated_at_et": "2026-08-31T06:18:02.089341-04:00",
     "phase": "refresh",
-    "locked": false,
-    "locked_at_et": null,
+    "locked": true,
+    "locked_at_et": "2026-08-31T08:22:12.169515-04:00",
     "sources": [
       "finnhub",
       "polygon"
@@ -334,7 +334,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Refreshing overnight",
-    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
+    "label": "Final pass",
+    "detail": "Last rebuild before the 8:25 ET freeze."
   }
 }
