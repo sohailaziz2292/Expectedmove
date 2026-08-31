@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-31T03:17:51.483525-04:00",
+  "built_at_et": "2026-08-31T06:18:02.090561-04:00",
   "cycle": {
-    "at_et": "2026-08-31T03:17:51.483303-04:00",
+    "at_et": "2026-08-31T06:18:02.090305-04:00",
     "phase": "refresh",
     "target_session": "2026-08-31",
     "display_session": "2026-08-31",
     "locked": false
   },
-  "seconds_to_lock": 18428,
+  "seconds_to_lock": 7617,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-08-31",
     "prior_session": "2026-08-28",
-    "generated_at_et": "2026-08-31T03:17:51.482183-04:00",
+    "generated_at_et": "2026-08-31T06:18:02.089341-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 66,
-      "scored": 42,
-      "skipped": 24,
+      "scored": 44,
+      "skipped": 22,
       "published": 15
     },
     "macro_events": [],
@@ -189,8 +189,27 @@
         "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "MVLL",
+        "symbol": "VISN",
         "rank": 9,
+        "expected_move_pct": 26.34,
+        "band": [
+          8.98,
+          43.69
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 14.978,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.256
+        },
+        "note": "4.1x normal volume"
+      },
+      {
+        "symbol": "MVLL",
+        "rank": 10,
         "expected_move_pct": 24.99,
         "band": [
           8.52,
@@ -209,7 +228,7 @@
       },
       {
         "symbol": "CLSX",
-        "rank": 10,
+        "rank": 11,
         "expected_move_pct": 24.74,
         "band": [
           8.44,
@@ -228,7 +247,7 @@
       },
       {
         "symbol": "MRAL",
-        "rank": 11,
+        "rank": 12,
         "expected_move_pct": 23.12,
         "band": [
           7.88,
@@ -242,25 +261,6 @@
           "baseline_vol": 15.424,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.071
-        },
-        "note": "Elevated baseline volatility"
-      },
-      {
-        "symbol": "MRVU",
-        "rank": 12,
-        "expected_move_pct": 22.66,
-        "band": [
-          7.73,
-          37.58
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 14.473,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.118
         },
         "note": "Elevated baseline volatility"
       },
