@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-08-31T13:37:06.628621-04:00",
+  "built_at_et": "2026-08-31T16:22:11.598928-04:00",
   "cycle": {
-    "at_et": "2026-08-31T13:37:06.628136-04:00",
-    "phase": "session",
+    "at_et": "2026-08-31T16:22:11.598483-04:00",
+    "phase": "settle",
     "target_session": "2026-08-31",
     "display_session": "2026-08-31",
     "locked": true
   },
-  "seconds_to_lock": 67673,
+  "seconds_to_lock": 57768,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -334,7 +334,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Market open",
-    "detail": "Today's list, read-only. Tomorrow's opens at 5:00 PM ET."
+    "label": "Scoring",
+    "detail": "Grading today's list against realized moves."
   }
 }
