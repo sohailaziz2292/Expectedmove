@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-09-01",
   "prior_session": "2026-08-31",
-  "generated_at_et": "2026-09-01T01:34:59.298279-04:00",
+  "generated_at_et": "2026-09-01T06:32:01.215759-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 74,
-    "scored": 46,
-    "skipped": 28,
+    "scored": 45,
+    "skipped": 29,
     "published": 15
   },
   "macro_events": [],
@@ -174,27 +174,8 @@
       "note": "2.5x normal volume"
     },
     {
-      "symbol": "NCRA",
-      "rank": 9,
-      "expected_move_pct": 23.02,
-      "band": [
-        7.85,
-        38.2
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "momentum_carryover"
-      ],
-      "drivers": {
-        "baseline_vol": 11.363,
-        "catalyst_weight": 1.4,
-        "rvol_bump": 1.447
-      },
-      "note": "578.0x normal volume"
-    },
-    {
       "symbol": "RZLV",
-      "rank": 10,
+      "rank": 9,
       "expected_move_pct": 22.43,
       "band": [
         7.65,
@@ -213,7 +194,7 @@
     },
     {
       "symbol": "SQFT",
-      "rank": 11,
+      "rank": 10,
       "expected_move_pct": 20.82,
       "band": [
         7.1,
@@ -232,7 +213,7 @@
     },
     {
       "symbol": "TP",
-      "rank": 12,
+      "rank": 11,
       "expected_move_pct": 19.66,
       "band": [
         6.71,
@@ -251,7 +232,7 @@
     },
     {
       "symbol": "PSNY",
-      "rank": 13,
+      "rank": 12,
       "expected_move_pct": 16.78,
       "band": [
         5.72,
@@ -270,7 +251,7 @@
     },
     {
       "symbol": "YDDL",
-      "rank": 14,
+      "rank": 13,
       "expected_move_pct": 16.39,
       "band": [
         5.59,
@@ -286,6 +267,25 @@
         "rvol_bump": 1.447
       },
       "note": "5647.8x normal volume"
+    },
+    {
+      "symbol": "NEOV",
+      "rank": 14,
+      "expected_move_pct": 16.23,
+      "band": [
+        5.53,
+        26.93
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 8.424,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.376
+      },
+      "note": "8.1x normal volume"
     },
     {
       "symbol": "NIO",
