@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-09-02",
   "prior_session": "2026-09-01",
-  "generated_at_et": "2026-09-02T01:02:23.890202-04:00",
+  "generated_at_et": "2026-09-02T05:59:21.189548-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 85,
-    "scored": 48,
-    "skipped": 37,
+    "scored": 54,
+    "skipped": 31,
     "published": 15
   },
   "macro_events": [],
@@ -136,8 +136,27 @@
       "note": "4.4x normal volume"
     },
     {
-      "symbol": "SST",
+      "symbol": "CRDO",
       "rank": 7,
+      "expected_move_pct": 25.11,
+      "band": [
+        8.56,
+        41.65
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior"
+      ],
+      "drivers": {
+        "baseline_vol": 7.565,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.145
+      },
+      "note": "Reported after yesterday's close; 2.2x normal volume"
+    },
+    {
+      "symbol": "SST",
+      "rank": 8,
       "expected_move_pct": 24.95,
       "band": [
         8.51,
@@ -156,7 +175,7 @@
     },
     {
       "symbol": "SSM",
-      "rank": 8,
+      "rank": 9,
       "expected_move_pct": 24.66,
       "band": [
         8.41,
@@ -175,7 +194,7 @@
     },
     {
       "symbol": "BMNZ",
-      "rank": 9,
+      "rank": 10,
       "expected_move_pct": 24.65,
       "band": [
         8.4,
@@ -194,7 +213,7 @@
     },
     {
       "symbol": "ONDL",
-      "rank": 10,
+      "rank": 11,
       "expected_move_pct": 23.97,
       "band": [
         8.17,
@@ -213,7 +232,7 @@
     },
     {
       "symbol": "FLYE",
-      "rank": 11,
+      "rank": 12,
       "expected_move_pct": 23.34,
       "band": [
         7.96,
@@ -232,7 +251,7 @@
     },
     {
       "symbol": "ONDG",
-      "rank": 12,
+      "rank": 13,
       "expected_move_pct": 22.63,
       "band": [
         7.72,
@@ -249,8 +268,28 @@
       "note": "Elevated baseline volatility"
     },
     {
+      "symbol": "DELL",
+      "rank": 14,
+      "expected_move_pct": 17.78,
+      "band": [
+        6.06,
+        29.49
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior",
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 5.086,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.205
+      },
+      "note": "Reported after yesterday's close; 3.1x normal volume"
+    },
+    {
       "symbol": "PANW",
-      "rank": 13,
+      "rank": 15,
       "expected_move_pct": 15.3,
       "band": [
         5.22,
@@ -266,44 +305,6 @@
         "rvol_bump": 1.098
       },
       "note": "Reported after yesterday's close"
-    },
-    {
-      "symbol": "CXM",
-      "rank": 14,
-      "expected_move_pct": 14.59,
-      "band": [
-        4.98,
-        24.21
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 3.707,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.27
-      },
-      "note": "Reports before the open; 4.5x normal volume"
-    },
-    {
-      "symbol": "OLLI",
-      "rank": 15,
-      "expected_move_pct": 13.42,
-      "band": [
-        4.58,
-        22.26
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 3.723,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.162
-      },
-      "note": "Reports before the open; 2.5x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
