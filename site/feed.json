@@ -1,19 +1,19 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-03T06:14:01.136792-04:00",
+  "built_at_et": "2026-09-03T10:06:49.193992-04:00",
   "cycle": {
-    "at_et": "2026-09-03T06:14:01.136550-04:00",
-    "phase": "refresh",
+    "at_et": "2026-09-03T10:06:49.193601-04:00",
+    "phase": "session",
     "target_session": "2026-09-03",
     "display_session": "2026-09-03",
-    "locked": false
+    "locked": true
   },
-  "seconds_to_lock": 7858,
+  "seconds_to_lock": 80290,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
-    "state": "degraded",
-    "message": "Built with 1 data source warning(s)."
+    "state": "unlocked",
+    "message": "Published after the 8:25 ET freeze. Treat as provisional."
   },
   "list": {
     "schema_version": 3,
@@ -335,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Refreshing overnight",
-    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
+    "label": "Market open",
+    "detail": "Today's list, read-only. Tomorrow's opens at 5:00 PM ET."
   }
 }
