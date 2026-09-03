@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-09-03",
   "prior_session": "2026-09-02",
-  "generated_at_et": "2026-09-03T01:00:13.104003-04:00",
+  "generated_at_et": "2026-09-03T06:14:01.135637-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 97,
-    "scored": 58,
-    "skipped": 39,
+    "scored": 57,
+    "skipped": 40,
     "published": 15
   },
   "macro_events": [],
@@ -117,8 +117,27 @@
       "note": "1157.7x normal volume"
     },
     {
-      "symbol": "FCUV",
+      "symbol": "EOSU",
       "rank": 6,
+      "expected_move_pct": 27.06,
+      "band": [
+        9.23,
+        44.89
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 15.12,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.278
+      },
+      "note": "4.7x normal volume"
+    },
+    {
+      "symbol": "FCUV",
+      "rank": 7,
       "expected_move_pct": 26.96,
       "band": [
         9.19,
@@ -137,7 +156,7 @@
     },
     {
       "symbol": "SWVL",
-      "rank": 7,
+      "rank": 8,
       "expected_move_pct": 25.16,
       "band": [
         8.58,
@@ -153,25 +172,6 @@
         "rvol_bump": 1.447
       },
       "note": "204.6x normal volume"
-    },
-    {
-      "symbol": "GPRO",
-      "rank": 8,
-      "expected_move_pct": 24.77,
-      "band": [
-        8.45,
-        41.1
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "momentum_carryover"
-      ],
-      "drivers": {
-        "baseline_vol": 12.225,
-        "catalyst_weight": 1.4,
-        "rvol_bump": 1.447
-      },
-      "note": "41.5x normal volume"
     },
     {
       "symbol": "VIOT",
@@ -269,27 +269,8 @@
       "note": "Reported after yesterday's close; 45.4x normal volume"
     },
     {
-      "symbol": "CIEN",
-      "rank": 14,
-      "expected_move_pct": 20.19,
-      "band": [
-        6.89,
-        33.5
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 5.996,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.086
-      },
-      "note": "Reports before the open"
-    },
-    {
       "symbol": "ASTX",
-      "rank": 15,
+      "rank": 14,
       "expected_move_pct": 19.88,
       "band": [
         6.78,
@@ -305,6 +286,25 @@
         "rvol_bump": 1.136
       },
       "note": "2.1x normal volume"
+    },
+    {
+      "symbol": "NTSK",
+      "rank": 15,
+      "expected_move_pct": 19.57,
+      "band": [
+        6.67,
+        32.47
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior"
+      ],
+      "drivers": {
+        "baseline_vol": 5.913,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.141
+      },
+      "note": "Reported after yesterday's close; 2.2x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
