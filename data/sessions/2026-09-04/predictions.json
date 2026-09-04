@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-09-04",
   "prior_session": "2026-09-03",
-  "generated_at_et": "2026-09-04T01:01:02.367254-04:00",
+  "generated_at_et": "2026-09-04T06:00:02.820229-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 69,
-    "scored": 54,
-    "skipped": 15,
+    "scored": 53,
+    "skipped": 16,
     "published": 15
   },
   "macro_events": [
@@ -294,23 +294,23 @@
       "note": "Reported after yesterday's close; 3.9x normal volume"
     },
     {
-      "symbol": "ASAN",
+      "symbol": "IOT",
       "rank": 15,
-      "expected_move_pct": 16.06,
+      "expected_move_pct": 15.9,
       "band": [
-        5.48,
-        26.64
+        5.42,
+        26.38
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_amc_prior"
       ],
       "drivers": {
-        "baseline_vol": 4.729,
+        "baseline_vol": 4.477,
         "catalyst_weight": 2.9,
-        "rvol_bump": 1.171
+        "rvol_bump": 1.225
       },
-      "note": "Reported after yesterday's close; 2.6x normal volume"
+      "note": "Reported after yesterday's close; 3.5x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
