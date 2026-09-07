@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-07T01:08:00.344066-04:00",
+  "built_at_et": "2026-09-07T06:41:40.328945-04:00",
   "cycle": {
-    "at_et": "2026-09-07T01:08:00.343748-04:00",
+    "at_et": "2026-09-07T06:41:40.328732-04:00",
     "phase": "refresh",
     "target_session": "2026-09-08",
     "display_session": "2026-09-08",
     "locked": false
   },
-  "seconds_to_lock": 26219,
+  "seconds_to_lock": 6199,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-08",
     "prior_session": "2026-09-04",
-    "generated_at_et": "2026-09-07T01:08:00.337018-04:00",
+    "generated_at_et": "2026-09-07T06:41:40.327710-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 59,
-      "scored": 43,
-      "skipped": 16,
+      "scored": 44,
+      "skipped": 15,
       "published": 15
     },
     "macro_events": [],
@@ -134,8 +134,46 @@
         "note": "3.2x normal volume"
       },
       {
-        "symbol": "SNDQ",
+        "symbol": "LULG",
         "rank": 6,
+        "expected_move_pct": 27.23,
+        "band": [
+          9.28,
+          45.17
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 13.437,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "43.8x normal volume"
+      },
+      {
+        "symbol": "PATX",
+        "rank": 7,
+        "expected_move_pct": 26.15,
+        "band": [
+          8.92,
+          43.39
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 12.907,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "21.6x normal volume"
+      },
+      {
+        "symbol": "SNDQ",
+        "rank": 8,
         "expected_move_pct": 26.09,
         "band": [
           8.9,
@@ -154,7 +192,7 @@
       },
       {
         "symbol": "GRNQ",
-        "rank": 7,
+        "rank": 9,
         "expected_move_pct": 25.59,
         "band": [
           8.73,
@@ -173,7 +211,7 @@
       },
       {
         "symbol": "CBRG",
-        "rank": 8,
+        "rank": 10,
         "expected_move_pct": 25.14,
         "band": [
           8.57,
@@ -192,7 +230,7 @@
       },
       {
         "symbol": "OXM",
-        "rank": 9,
+        "rank": 11,
         "expected_move_pct": 23.88,
         "band": [
           8.14,
@@ -211,7 +249,7 @@
       },
       {
         "symbol": "CBRX",
-        "rank": 10,
+        "rank": 12,
         "expected_move_pct": 23.15,
         "band": [
           7.89,
@@ -230,7 +268,7 @@
       },
       {
         "symbol": "GRI",
-        "rank": 11,
+        "rank": 13,
         "expected_move_pct": 20.13,
         "band": [
           6.86,
@@ -246,44 +284,6 @@
           "rvol_bump": 1.447
         },
         "note": "92.3x normal volume"
-      },
-      {
-        "symbol": "SNDG",
-        "rank": 12,
-        "expected_move_pct": 18.57,
-        "band": [
-          6.33,
-          30.81
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 11.994,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.106
-        },
-        "note": "Elevated baseline volatility"
-      },
-      {
-        "symbol": "SNXX",
-        "rank": 13,
-        "expected_move_pct": 17.76,
-        "band": [
-          6.06,
-          29.47
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 11.919,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.064
-        },
-        "note": "Elevated baseline volatility"
       },
       {
         "symbol": "UNFI",
