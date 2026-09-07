@@ -2,8 +2,8 @@
   "schema_version": 3,
   "target_session": "2026-09-08",
   "prior_session": "2026-09-04",
-  "generated_at_et": "2026-09-07T06:41:40.327710-04:00",
-  "phase": "refresh",
+  "generated_at_et": "2026-09-07T19:03:05.563493-04:00",
+  "phase": "draft",
   "locked": false,
   "locked_at_et": null,
   "sources": [
@@ -14,8 +14,8 @@
     "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-09-04&to=2026-09-08"
   ],
   "counts": {
-    "universe": 59,
-    "scored": 44,
+    "universe": 60,
+    "scored": 45,
     "skipped": 15,
     "published": 15
   },
@@ -212,27 +212,8 @@
       "note": "2.7x normal volume"
     },
     {
-      "symbol": "OXM",
-      "rank": 11,
-      "expected_move_pct": 23.88,
-      "band": [
-        8.14,
-        39.62
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 5.591,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.378
-      },
-      "note": "Reports before the open; 8.2x normal volume"
-    },
-    {
       "symbol": "CBRX",
-      "rank": 12,
+      "rank": 11,
       "expected_move_pct": 23.15,
       "band": [
         7.89,
@@ -251,7 +232,7 @@
     },
     {
       "symbol": "GRI",
-      "rank": 13,
+      "rank": 12,
       "expected_move_pct": 20.13,
       "band": [
         6.86,
@@ -269,27 +250,8 @@
       "note": "92.3x normal volume"
     },
     {
-      "symbol": "UNFI",
-      "rank": 14,
-      "expected_move_pct": 10.25,
-      "band": [
-        3.5,
-        17.01
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 2.812,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.176
-      },
-      "note": "Reports before the open; 2.7x normal volume"
-    },
-    {
       "symbol": "TSLA",
-      "rank": 15,
+      "rank": 13,
       "expected_move_pct": 6.19,
       "band": [
         2.11,
@@ -306,6 +268,44 @@
         "rvol_bump": 1.12
       },
       "note": "Reprices on scheduled macro data"
+    },
+    {
+      "symbol": "NVDA",
+      "rank": 14,
+      "expected_move_pct": 4.7,
+      "band": [
+        1.6,
+        7.8
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "macro_sensitive",
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 3.236,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.039
+      },
+      "note": "Reprices on scheduled macro data"
+    },
+    {
+      "symbol": "ABM",
+      "rank": 15,
+      "expected_move_pct": 4.49,
+      "band": [
+        1.53,
+        7.45
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_bmo"
+      ],
+      "drivers": {
+        "baseline_vol": 1.449,
+        "catalyst_weight": 3.1
+      },
+      "note": "Reports before the open"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
