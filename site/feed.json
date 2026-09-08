@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-07T19:40:07.399785-04:00",
+  "built_at_et": "2026-09-07T21:34:08.572431-04:00",
   "cycle": {
-    "at_et": "2026-09-07T19:40:07.399519-04:00",
-    "phase": "draft",
+    "at_et": "2026-09-07T21:34:08.572196-04:00",
+    "phase": "refresh",
     "target_session": "2026-09-08",
     "display_session": "2026-09-08",
     "locked": false
   },
-  "seconds_to_lock": 45892,
+  "seconds_to_lock": 39051,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,8 +19,8 @@
     "schema_version": 3,
     "target_session": "2026-09-08",
     "prior_session": "2026-09-04",
-    "generated_at_et": "2026-09-07T19:40:07.398510-04:00",
-    "phase": "draft",
+    "generated_at_et": "2026-09-07T21:34:08.571254-04:00",
+    "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
     "sources": [
@@ -336,7 +336,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Building tomorrow",
-    "detail": "First pass on the next session. Names will be added and dropped overnight."
+    "label": "Refreshing overnight",
+    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
   }
 }
