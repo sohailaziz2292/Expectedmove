@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-09-09",
   "prior_session": "2026-09-08",
-  "generated_at_et": "2026-09-09T01:08:06.689176-04:00",
+  "generated_at_et": "2026-09-09T06:09:01.507749-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 76,
-    "scored": 56,
-    "skipped": 20,
+    "scored": 57,
+    "skipped": 19,
     "published": 15
   },
   "macro_events": [],
@@ -250,23 +250,23 @@
       "note": "50.3x normal volume"
     },
     {
-      "symbol": "SAIL",
+      "symbol": "OCC",
       "rank": 13,
-      "expected_move_pct": 20.26,
+      "expected_move_pct": 21.11,
       "band": [
-        6.91,
-        33.61
+        7.2,
+        35.02
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 5.796,
+        "baseline_vol": 5.725,
         "catalyst_weight": 3.1,
-        "rvol_bump": 1.128
+        "rvol_bump": 1.189
       },
-      "note": "Reports before the open; 2.0x normal volume"
+      "note": "Reports before the open; 2.9x normal volume"
     },
     {
       "symbol": "TTAN",
@@ -288,23 +288,23 @@
       "note": "Reported after yesterday's close; 5.3x normal volume"
     },
     {
-      "symbol": "JMKE",
+      "symbol": "ODD",
       "rank": 15,
-      "expected_move_pct": 15.39,
+      "expected_move_pct": 18.33,
       "band": [
-        5.25,
-        25.53
+        6.25,
+        30.4
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 4.351,
+        "baseline_vol": 5.608,
         "catalyst_weight": 3.1,
-        "rvol_bump": 1.141
+        "rvol_bump": 1.054
       },
-      "note": "Reports before the open; 2.2x normal volume"
+      "note": "Reports before the open"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
