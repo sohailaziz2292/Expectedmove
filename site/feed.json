@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-10T01:10:19.494510-04:00",
+  "built_at_et": "2026-09-10T06:06:05.974605-04:00",
   "cycle": {
-    "at_et": "2026-09-10T01:10:19.494365-04:00",
+    "at_et": "2026-09-10T06:06:05.974350-04:00",
     "phase": "refresh",
     "target_session": "2026-09-10",
     "display_session": "2026-09-10",
     "locked": false
   },
-  "seconds_to_lock": 26080,
+  "seconds_to_lock": 8334,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-10",
     "prior_session": "2026-09-09",
-    "generated_at_et": "2026-09-10T01:10:19.493728-04:00",
+    "generated_at_et": "2026-09-10T06:06:05.973465-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -31,9 +31,9 @@
       "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-09-09&to=2026-09-10"
     ],
     "counts": {
-      "universe": 78,
-      "scored": 53,
-      "skipped": 25,
+      "universe": 77,
+      "scored": 50,
+      "skipped": 27,
       "published": 15
     },
     "macro_events": [],
@@ -247,27 +247,8 @@
         "note": "Reports before the open; 2.6x normal volume"
       },
       {
-        "symbol": "AVAV",
-        "rank": 12,
-        "expected_move_pct": 16.67,
-        "band": [
-          5.68,
-          27.65
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_amc_prior"
-        ],
-        "drivers": {
-          "baseline_vol": 4.56,
-          "catalyst_weight": 2.9,
-          "rvol_bump": 1.26
-        },
-        "note": "Reported after yesterday's close; 4.2x normal volume"
-      },
-      {
         "symbol": "TYRA",
-        "rank": 13,
+        "rank": 12,
         "expected_move_pct": 16.09,
         "band": [
           5.49,
@@ -286,7 +267,7 @@
       },
       {
         "symbol": "NB",
-        "rank": 14,
+        "rank": 13,
         "expected_move_pct": 15.43,
         "band": [
           5.26,
@@ -304,7 +285,7 @@
       },
       {
         "symbol": "EVMN",
-        "rank": 15,
+        "rank": 14,
         "expected_move_pct": 15.38,
         "band": [
           5.24,
@@ -320,6 +301,25 @@
           "rvol_bump": 1.441
         },
         "note": "11.6x normal volume"
+      },
+      {
+        "symbol": "NAVN",
+        "rank": 15,
+        "expected_move_pct": 14.64,
+        "band": [
+          4.99,
+          24.28
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_amc_prior"
+        ],
+        "drivers": {
+          "baseline_vol": 4.251,
+          "catalyst_weight": 2.9,
+          "rvol_bump": 1.187
+        },
+        "note": "Reported after yesterday's close; 2.8x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
