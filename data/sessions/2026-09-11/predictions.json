@@ -1,0 +1,318 @@
+{
+  "schema_version": 3,
+  "target_session": "2026-09-11",
+  "prior_session": "2026-09-10",
+  "generated_at_et": "2026-09-11T01:04:51.081569-04:00",
+  "phase": "refresh",
+  "locked": false,
+  "locked_at_et": null,
+  "sources": [
+    "finnhub",
+    "polygon"
+  ],
+  "warnings": [
+    "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-09-10&to=2026-09-11"
+  ],
+  "counts": {
+    "universe": 57,
+    "scored": 47,
+    "skipped": 10,
+    "published": 15
+  },
+  "macro_events": [
+    {
+      "name": "CPI",
+      "time_et": "08:30",
+      "source": "BLS"
+    }
+  ],
+  "predictions": [
+    {
+      "symbol": "TNON",
+      "rank": 1,
+      "expected_move_pct": 49.24,
+      "band": [
+        16.79,
+        81.69
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 24.301,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "787.8x normal volume"
+    },
+    {
+      "symbol": "DBGI",
+      "rank": 2,
+      "expected_move_pct": 36.64,
+      "band": [
+        12.5,
+        60.79
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 18.085,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "264.3x normal volume"
+    },
+    {
+      "symbol": "PSIG",
+      "rank": 3,
+      "expected_move_pct": 35.19,
+      "band": [
+        12.0,
+        58.38
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 17.366,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "39.0x normal volume"
+    },
+    {
+      "symbol": "SUNE",
+      "rank": 4,
+      "expected_move_pct": 31.02,
+      "band": [
+        10.58,
+        51.47
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 15.312,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "113.4x normal volume"
+    },
+    {
+      "symbol": "LPTH",
+      "rank": 5,
+      "expected_move_pct": 30.65,
+      "band": [
+        10.45,
+        50.85
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior"
+      ],
+      "drivers": {
+        "baseline_vol": 10.074,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.049
+      },
+      "note": "Reported after yesterday's close"
+    },
+    {
+      "symbol": "INDP",
+      "rank": 6,
+      "expected_move_pct": 24.52,
+      "band": [
+        8.36,
+        40.68
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 12.356,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.418
+      },
+      "note": "10.2x normal volume"
+    },
+    {
+      "symbol": "PCLA",
+      "rank": 7,
+      "expected_move_pct": 21.2,
+      "band": [
+        7.23,
+        35.16
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 10.461,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "115.2x normal volume"
+    },
+    {
+      "symbol": "SUPX",
+      "rank": 8,
+      "expected_move_pct": 21.16,
+      "band": [
+        7.22,
+        35.1
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 13.707,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.103
+      },
+      "note": "Elevated baseline volatility"
+    },
+    {
+      "symbol": "BBOT",
+      "rank": 9,
+      "expected_move_pct": 20.55,
+      "band": [
+        7.01,
+        34.09
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 10.145,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "12.0x normal volume"
+    },
+    {
+      "symbol": "AHMA",
+      "rank": 10,
+      "expected_move_pct": 18.63,
+      "band": [
+        6.35,
+        30.91
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 9.194,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "947.7x normal volume"
+    },
+    {
+      "symbol": "SKYQ",
+      "rank": 11,
+      "expected_move_pct": 16.92,
+      "band": [
+        5.77,
+        28.07
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 8.349,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "30.6x normal volume"
+    },
+    {
+      "symbol": "BHVN",
+      "rank": 12,
+      "expected_move_pct": 15.92,
+      "band": [
+        5.43,
+        26.42
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 9.277,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.226
+      },
+      "note": "3.5x normal volume"
+    },
+    {
+      "symbol": "FEIM",
+      "rank": 13,
+      "expected_move_pct": 15.86,
+      "band": [
+        5.41,
+        26.31
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior"
+      ],
+      "drivers": {
+        "baseline_vol": 5.223,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.047
+      },
+      "note": "Reported after yesterday's close"
+    },
+    {
+      "symbol": "NFE",
+      "rank": 14,
+      "expected_move_pct": 15.6,
+      "band": [
+        5.32,
+        25.88
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 7.742,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.439
+      },
+      "note": "11.5x normal volume"
+    },
+    {
+      "symbol": "ORCL",
+      "rank": 15,
+      "expected_move_pct": 13.42,
+      "band": [
+        4.58,
+        22.26
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior",
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 3.949,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.172
+      },
+      "note": "Reported after yesterday's close; 2.6x normal volume"
+    }
+  ],
+  "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
+}
