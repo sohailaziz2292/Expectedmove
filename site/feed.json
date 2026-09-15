@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-15T01:15:56.639565-04:00",
+  "built_at_et": "2026-09-15T06:23:58.750376-04:00",
   "cycle": {
-    "at_et": "2026-09-15T01:15:56.639269-04:00",
+    "at_et": "2026-09-15T06:23:58.750061-04:00",
     "phase": "refresh",
     "target_session": "2026-09-15",
     "display_session": "2026-09-15",
     "locked": false
   },
-  "seconds_to_lock": 25743,
+  "seconds_to_lock": 7261,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-15",
     "prior_session": "2026-09-14",
-    "generated_at_et": "2026-09-15T01:15:56.638221-04:00",
+    "generated_at_et": "2026-09-15T06:23:58.748884-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -248,27 +248,8 @@
         "note": "26.8x normal volume"
       },
       {
-        "symbol": "PLAY",
-        "rank": 12,
-        "expected_move_pct": 21.84,
-        "band": [
-          7.45,
-          36.24
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_amc_prior"
-        ],
-        "drivers": {
-          "baseline_vol": 5.743,
-          "catalyst_weight": 2.9,
-          "rvol_bump": 1.312
-        },
-        "note": "Reported after yesterday's close; 5.6x normal volume"
-      },
-      {
         "symbol": "COHX",
-        "rank": 13,
+        "rank": 12,
         "expected_move_pct": 21.4,
         "band": [
           7.3,
@@ -287,7 +268,7 @@
       },
       {
         "symbol": "FPS",
-        "rank": 14,
+        "rank": 13,
         "expected_move_pct": 20.57,
         "band": [
           7.01,
@@ -306,7 +287,7 @@
       },
       {
         "symbol": "KMTS",
-        "rank": 15,
+        "rank": 14,
         "expected_move_pct": 13.52,
         "band": [
           4.61,
@@ -322,6 +303,24 @@
           "rvol_bump": 1.205
         },
         "note": "Reported after yesterday's close; 3.1x normal volume"
+      },
+      {
+        "symbol": "LAES",
+        "rank": 15,
+        "expected_move_pct": 11.71,
+        "band": [
+          3.99,
+          19.42
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 3.776,
+          "catalyst_weight": 3.1
+        },
+        "note": "Reports before the open"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
