@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-16T01:09:48.139549-04:00",
+  "built_at_et": "2026-09-16T06:15:51.745465-04:00",
   "cycle": {
-    "at_et": "2026-09-16T01:09:48.139314-04:00",
+    "at_et": "2026-09-16T06:15:51.745208-04:00",
     "phase": "refresh",
     "target_session": "2026-09-16",
     "display_session": "2026-09-16",
     "locked": false
   },
-  "seconds_to_lock": 26111,
+  "seconds_to_lock": 7748,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-16",
     "prior_session": "2026-09-15",
-    "generated_at_et": "2026-09-16T01:09:48.138511-04:00",
+    "generated_at_et": "2026-09-16T06:15:51.737846-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -45,8 +45,27 @@
     ],
     "predictions": [
       {
-        "symbol": "FTFT",
+        "symbol": "RETO",
         "rank": 1,
+        "expected_move_pct": 74.62,
+        "band": [
+          25.45,
+          123.8
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 36.829,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "1030.1x normal volume"
+      },
+      {
+        "symbol": "FTFT",
+        "rank": 2,
         "expected_move_pct": 55.16,
         "band": [
           18.81,
@@ -65,7 +84,7 @@
       },
       {
         "symbol": "VEEA",
-        "rank": 2,
+        "rank": 3,
         "expected_move_pct": 38.54,
         "band": [
           13.14,
@@ -84,7 +103,7 @@
       },
       {
         "symbol": "MEDS",
-        "rank": 3,
+        "rank": 4,
         "expected_move_pct": 37.99,
         "band": [
           12.95,
@@ -100,25 +119,6 @@
           "rvol_bump": 1.447
         },
         "note": "488.7x normal volume"
-      },
-      {
-        "symbol": "NWGL",
-        "rank": 4,
-        "expected_move_pct": 34.3,
-        "band": [
-          11.7,
-          56.91
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 16.95,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.446
-        },
-        "note": "11.9x normal volume"
       },
       {
         "symbol": "HQ",
