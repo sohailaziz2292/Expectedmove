@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-09-17",
   "prior_session": "2026-09-16",
-  "generated_at_et": "2026-09-17T01:12:07.473608-04:00",
+  "generated_at_et": "2026-09-17T06:18:14.016241-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 57,
-    "scored": 44,
-    "skipped": 13,
+    "scored": 43,
+    "skipped": 14,
     "published": 15
   },
   "macro_events": [],
@@ -79,27 +79,8 @@
       "note": "8660.5x normal volume"
     },
     {
-      "symbol": "MEDS",
-      "rank": 4,
-      "expected_move_pct": 55.78,
-      "band": [
-        19.02,
-        92.54
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "momentum_carryover"
-      ],
-      "drivers": {
-        "baseline_vol": 27.53,
-        "catalyst_weight": 1.4,
-        "rvol_bump": 1.447
-      },
-      "note": "1418.0x normal volume"
-    },
-    {
       "symbol": "FTFT",
-      "rank": 5,
+      "rank": 4,
       "expected_move_pct": 55.44,
       "band": [
         18.91,
@@ -118,7 +99,7 @@
     },
     {
       "symbol": "AEHL",
-      "rank": 6,
+      "rank": 5,
       "expected_move_pct": 51.95,
       "band": [
         17.72,
@@ -137,7 +118,7 @@
     },
     {
       "symbol": "AXTQ",
-      "rank": 7,
+      "rank": 6,
       "expected_move_pct": 38.56,
       "band": [
         13.15,
@@ -156,7 +137,7 @@
     },
     {
       "symbol": "AXTX",
-      "rank": 8,
+      "rank": 7,
       "expected_move_pct": 26.0,
       "band": [
         8.87,
@@ -175,7 +156,7 @@
     },
     {
       "symbol": "CIFU",
-      "rank": 9,
+      "rank": 8,
       "expected_move_pct": 25.46,
       "band": [
         8.68,
@@ -194,7 +175,7 @@
     },
     {
       "symbol": "CIFG",
-      "rank": 10,
+      "rank": 9,
       "expected_move_pct": 24.98,
       "band": [
         8.52,
@@ -213,7 +194,7 @@
     },
     {
       "symbol": "MRLN",
-      "rank": 11,
+      "rank": 10,
       "expected_move_pct": 24.65,
       "band": [
         8.41,
@@ -232,7 +213,7 @@
     },
     {
       "symbol": "LITZ",
-      "rank": 12,
+      "rank": 11,
       "expected_move_pct": 23.46,
       "band": [
         8.0,
@@ -248,6 +229,25 @@
         "rvol_bump": 1.198
       },
       "note": "3.0x normal volume"
+    },
+    {
+      "symbol": "HCWC",
+      "rank": 12,
+      "expected_move_pct": 21.5,
+      "band": [
+        7.33,
+        35.68
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 11.277,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.362
+      },
+      "note": "7.5x normal volume"
     },
     {
       "symbol": "ALMU",
