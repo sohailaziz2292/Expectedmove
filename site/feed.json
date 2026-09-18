@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-18T01:05:03.685234-04:00",
+  "built_at_et": "2026-09-18T06:04:35.263683-04:00",
   "cycle": {
-    "at_et": "2026-09-18T01:05:03.684928-04:00",
+    "at_et": "2026-09-18T06:04:35.263389-04:00",
     "phase": "refresh",
     "target_session": "2026-09-18",
     "display_session": "2026-09-18",
     "locked": false
   },
-  "seconds_to_lock": 26396,
+  "seconds_to_lock": 8424,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-18",
     "prior_session": "2026-09-17",
-    "generated_at_et": "2026-09-18T01:05:03.683814-04:00",
+    "generated_at_et": "2026-09-18T06:04:35.262023-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 48,
-      "scored": 41,
-      "skipped": 7,
+      "scored": 42,
+      "skipped": 6,
       "published": 15
     },
     "macro_events": [],
@@ -304,20 +304,21 @@
         "note": "Reprices on scheduled macro data"
       },
       {
-        "symbol": "KRE",
+        "symbol": "XLE",
         "rank": 15,
-        "expected_move_pct": 1.68,
+        "expected_move_pct": 2.15,
         "band": [
-          0.57,
-          2.79
+          0.73,
+          3.57
         ],
         "confidence": 0.62,
         "catalysts": [
           "macro_sensitive"
         ],
         "drivers": {
-          "baseline_vol": 1.4,
-          "catalyst_weight": 1.2
+          "baseline_vol": 1.715,
+          "catalyst_weight": 1.2,
+          "rvol_bump": 1.047
         },
         "note": "Reprices on scheduled macro data"
       }
