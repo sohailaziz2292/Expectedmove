@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-22T01:21:10.465119-04:00",
+  "built_at_et": "2026-09-22T06:17:31.668958-04:00",
   "cycle": {
-    "at_et": "2026-09-22T01:21:10.464854-04:00",
+    "at_et": "2026-09-22T06:17:31.668844-04:00",
     "phase": "refresh",
     "target_session": "2026-09-22",
     "display_session": "2026-09-22",
     "locked": false
   },
-  "seconds_to_lock": 25429,
+  "seconds_to_lock": 7648,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-22",
     "prior_session": "2026-09-21",
-    "generated_at_et": "2026-09-22T01:21:10.464056-04:00",
+    "generated_at_et": "2026-09-22T06:17:31.668051-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 52,
-      "scored": 48,
-      "skipped": 4,
+      "scored": 47,
+      "skipped": 5,
       "published": 15
     },
     "macro_events": [],
