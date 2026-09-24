@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-24T01:16:00.387994-04:00",
+  "built_at_et": "2026-09-24T06:24:53.647952-04:00",
   "cycle": {
-    "at_et": "2026-09-24T01:16:00.387761-04:00",
+    "at_et": "2026-09-24T06:24:53.647653-04:00",
     "phase": "refresh",
     "target_session": "2026-09-24",
     "display_session": "2026-09-24",
     "locked": false
   },
-  "seconds_to_lock": 25739,
+  "seconds_to_lock": 7206,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-09-24",
     "prior_session": "2026-09-23",
-    "generated_at_et": "2026-09-24T01:16:00.386868-04:00",
+    "generated_at_et": "2026-09-24T06:24:53.646478-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -31,9 +31,9 @@
       "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-09-23&to=2026-09-24"
     ],
     "counts": {
-      "universe": 59,
-      "scored": 45,
-      "skipped": 14,
+      "universe": 58,
+      "scored": 43,
+      "skipped": 15,
       "published": 15
     },
     "macro_events": [],
@@ -153,27 +153,8 @@
         "note": "6.3x normal volume"
       },
       {
-        "symbol": "WHLR",
-        "rank": 7,
-        "expected_move_pct": 53.78,
-        "band": [
-          18.34,
-          89.23
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 26.544,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.447
-        },
-        "note": "691.6x normal volume"
-      },
-      {
         "symbol": "NFE",
-        "rank": 8,
+        "rank": 7,
         "expected_move_pct": 42.45,
         "band": [
           14.48,
@@ -192,7 +173,7 @@
       },
       {
         "symbol": "DBGI",
-        "rank": 9,
+        "rank": 8,
         "expected_move_pct": 40.35,
         "band": [
           13.76,
@@ -211,7 +192,7 @@
       },
       {
         "symbol": "ARTL",
-        "rank": 10,
+        "rank": 9,
         "expected_move_pct": 37.22,
         "band": [
           12.69,
@@ -230,7 +211,7 @@
       },
       {
         "symbol": "VSA",
-        "rank": 11,
+        "rank": 10,
         "expected_move_pct": 31.12,
         "band": [
           10.61,
@@ -249,7 +230,7 @@
       },
       {
         "symbol": "IPDN",
-        "rank": 12,
+        "rank": 11,
         "expected_move_pct": 29.83,
         "band": [
           10.17,
@@ -265,6 +246,25 @@
           "rvol_bump": 1.447
         },
         "note": "179.4x normal volume"
+      },
+      {
+        "symbol": "DCOY",
+        "rank": 12,
+        "expected_move_pct": 26.48,
+        "band": [
+          9.03,
+          43.93
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 13.068,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "1012.7x normal volume"
       },
       {
         "symbol": "SNX",
