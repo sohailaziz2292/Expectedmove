@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-29T12:19:17.202611-04:00",
+  "built_at_et": "2026-09-30T01:55:21.817872-04:00",
   "cycle": {
-    "at_et": "2026-09-29T12:19:17.202180-04:00",
-    "phase": "session",
-    "target_session": "2026-09-29",
-    "display_session": "2026-09-29",
-    "locked": true
+    "at_et": "2026-09-30T01:55:21.817622-04:00",
+    "phase": "refresh",
+    "target_session": "2026-09-30",
+    "display_session": "2026-09-30",
+    "locked": false
   },
-  "seconds_to_lock": 72342,
+  "seconds_to_lock": 23378,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
-    "state": "unlocked",
-    "message": "Published after the 8:25 ET freeze. Treat as provisional."
+    "state": "degraded",
+    "message": "Built with 1 data source warning(s)."
   },
   "list": {
     "schema_version": 3,
-    "target_session": "2026-09-29",
-    "prior_session": "2026-09-28",
-    "generated_at_et": "2026-09-29T02:05:28.502123-04:00",
+    "target_session": "2026-09-30",
+    "prior_session": "2026-09-29",
+    "generated_at_et": "2026-09-30T01:55:21.816827-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -28,299 +28,300 @@
       "polygon"
     ],
     "warnings": [
-      "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-09-28&to=2026-09-29"
+      "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-09-29&to=2026-09-30"
     ],
     "counts": {
-      "universe": 62,
-      "scored": 46,
-      "skipped": 16,
+      "universe": 55,
+      "scored": 48,
+      "skipped": 7,
       "published": 15
     },
     "macro_events": [],
     "predictions": [
       {
-        "symbol": "JAGX",
-        "rank": 1,
-        "expected_move_pct": 178.36,
-        "band": [
-          60.82,
-          295.9
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 88.026,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.447
-        },
-        "note": "20.3x normal volume"
-      },
-      {
-        "symbol": "NCI",
-        "rank": 2,
-        "expected_move_pct": 109.41,
-        "band": [
-          37.31,
-          181.5
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 55.629,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.405
-        },
-        "note": "9.5x normal volume"
-      },
-      {
-        "symbol": "MEDS",
-        "rank": 3,
-        "expected_move_pct": 86.04,
-        "band": [
-          29.34,
-          142.74
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 42.463,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.447
-        },
-        "note": "106.1x normal volume"
-      },
-      {
         "symbol": "MSGY",
+        "rank": 1,
+        "expected_move_pct": 76.44,
+        "band": [
+          26.07,
+          126.81
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 37.726,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "718.2x normal volume"
+      },
+      {
+        "symbol": "PFSA",
+        "rank": 2,
+        "expected_move_pct": 46.36,
+        "band": [
+          15.81,
+          76.92
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 22.882,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "54.2x normal volume"
+      },
+      {
+        "symbol": "WYY",
+        "rank": 3,
+        "expected_move_pct": 37.09,
+        "band": [
+          12.65,
+          61.53
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 18.305,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "12.7x normal volume"
+      },
+      {
+        "symbol": "BKYI",
         "rank": 4,
-        "expected_move_pct": 85.41,
+        "expected_move_pct": 32.57,
         "band": [
-          29.13,
-          141.7
+          11.1,
+          54.03
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 42.155,
+          "baseline_vol": 16.072,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.447
         },
-        "note": "220.5x normal volume"
+        "note": "11265.1x normal volume"
       },
       {
-        "symbol": "GRML",
+        "symbol": "SDEV",
         "rank": 5,
-        "expected_move_pct": 59.01,
+        "expected_move_pct": 31.19,
         "band": [
-          20.12,
-          97.9
+          10.64,
+          51.75
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 29.125,
+          "baseline_vol": 15.395,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.447
         },
-        "note": "14.6x normal volume"
+        "note": "538.1x normal volume"
       },
       {
-        "symbol": "GLND",
+        "symbol": "BEZ",
         "rank": 6,
-        "expected_move_pct": 44.85,
+        "expected_move_pct": 29.89,
         "band": [
-          15.29,
-          74.4
+          10.19,
+          49.59
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 22.134,
+          "baseline_vol": 16.445,
           "catalyst_weight": 1.4,
-          "rvol_bump": 1.447
+          "rvol_bump": 1.298
         },
-        "note": "56.5x normal volume"
+        "note": "5.2x normal volume"
       },
       {
-        "symbol": "NAMI",
+        "symbol": "QURE",
         "rank": 7,
-        "expected_move_pct": 38.14,
+        "expected_move_pct": 25.23,
         "band": [
-          13.01,
-          63.27
+          8.6,
+          41.86
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 18.823,
+          "baseline_vol": 12.454,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.447
         },
-        "note": "1544.1x normal volume"
+        "note": "24.3x normal volume"
       },
       {
-        "symbol": "KOD",
+        "symbol": "DXST",
         "rank": 8,
-        "expected_move_pct": 33.44,
+        "expected_move_pct": 24.87,
         "band": [
-          11.4,
-          55.48
+          8.48,
+          41.25
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 16.506,
+          "baseline_vol": 12.273,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.447
         },
-        "note": "56.8x normal volume"
+        "note": "2237.1x normal volume"
       },
       {
-        "symbol": "ACET",
+        "symbol": "CNXC",
         "rank": 9,
-        "expected_move_pct": 23.77,
+        "expected_move_pct": 22.63,
         "band": [
-          8.11,
-          39.44
+          7.72,
+          37.55
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_amc_prior"
+        ],
+        "drivers": {
+          "baseline_vol": 6.848,
+          "catalyst_weight": 2.9,
+          "rvol_bump": 1.14
+        },
+        "note": "Reported after yesterday's close; 2.2x normal volume"
+      },
+      {
+        "symbol": "EGG",
+        "rank": 10,
+        "expected_move_pct": 22.37,
+        "band": [
+          7.63,
+          37.12
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 11.732,
+          "baseline_vol": 11.042,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.447
         },
-        "note": "18.4x normal volume"
+        "note": "435.4x normal volume"
       },
       {
-        "symbol": "CYPH",
-        "rank": 10,
-        "expected_move_pct": 23.76,
+        "symbol": "BEX",
+        "rank": 11,
+        "expected_move_pct": 20.97,
         "band": [
-          8.1,
-          39.42
+          7.15,
+          34.79
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 15.885,
+          "baseline_vol": 13.111,
           "catalyst_weight": 1.4,
-          "rvol_bump": 1.068
+          "rvol_bump": 1.143
+        },
+        "note": "2.2x normal volume"
+      },
+      {
+        "symbol": "SVRN",
+        "rank": 12,
+        "expected_move_pct": 20.2,
+        "band": [
+          6.89,
+          33.52
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 13.637,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.058
         },
         "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "ITG",
-        "rank": 11,
-        "expected_move_pct": 23.4,
-        "band": [
-          7.98,
-          38.83
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 12.753,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.311
-        },
-        "note": "5.6x normal volume"
-      },
-      {
-        "symbol": "CLRO",
-        "rank": 12,
-        "expected_move_pct": 22.64,
-        "band": [
-          7.72,
-          37.56
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 11.172,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.447
-        },
-        "note": "1715.9x normal volume"
-      },
-      {
-        "symbol": "UEC",
+        "symbol": "BEG",
         "rank": 13,
-        "expected_move_pct": 13.67,
+        "expected_move_pct": 19.84,
         "band": [
-          4.66,
-          22.68
+          6.76,
+          32.91
         ],
         "confidence": 0.62,
         "catalysts": [
-          "earnings_bmo"
+          "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 4.41,
-          "catalyst_weight": 3.1
+          "baseline_vol": 12.779,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.109
         },
-        "note": "Reports before the open"
+        "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "KMX",
+        "symbol": "FDS",
         "rank": 14,
-        "expected_move_pct": 11.22,
+        "expected_move_pct": 13.39,
         "band": [
-          3.83,
-          18.62
+          4.57,
+          22.21
         ],
         "confidence": 0.62,
         "catalysts": [
           "earnings_bmo"
         ],
         "drivers": {
-          "baseline_vol": 2.929,
+          "baseline_vol": 3.956,
           "catalyst_weight": 3.1,
-          "rvol_bump": 1.236
-        },
-        "note": "Reports before the open; 3.7x normal volume"
-      },
-      {
-        "symbol": "CAG",
-        "rank": 15,
-        "expected_move_pct": 7.02,
-        "band": [
-          2.39,
-          11.65
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 2.158,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.05
+          "rvol_bump": 1.092
         },
         "note": "Reports before the open"
+      },
+      {
+        "symbol": "JEF",
+        "rank": 15,
+        "expected_move_pct": 11.09,
+        "band": [
+          3.78,
+          18.39
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 3.161,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.131
+        },
+        "note": "Reports before the open; 2.1x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
@@ -334,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Market open",
-    "detail": "Today's list, read-only. Tomorrow's opens at 5:00 PM ET."
+    "label": "Refreshing overnight",
+    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
   }
 }
