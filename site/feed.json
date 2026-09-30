@@ -1,19 +1,19 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-09-30T01:55:21.817872-04:00",
+  "built_at_et": "2026-09-30T08:47:44.331472-04:00",
   "cycle": {
-    "at_et": "2026-09-30T01:55:21.817622-04:00",
-    "phase": "refresh",
+    "at_et": "2026-09-30T08:47:44.331043-04:00",
+    "phase": "locked",
     "target_session": "2026-09-30",
     "display_session": "2026-09-30",
-    "locked": false
+    "locked": true
   },
-  "seconds_to_lock": 23378,
+  "seconds_to_lock": 85035,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
-    "state": "degraded",
-    "message": "Built with 1 data source warning(s)."
+    "state": "unlocked",
+    "message": "Published after the 8:25 ET freeze. Treat as provisional."
   },
   "list": {
     "schema_version": 3,
@@ -335,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Refreshing overnight",
-    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
+    "label": "Locked",
+    "detail": "Frozen at 8:25 ET. This list will not change before the bell."
   }
 }
