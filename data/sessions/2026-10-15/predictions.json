@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-10-15",
   "prior_session": "2026-10-14",
-  "generated_at_et": "2026-10-15T01:08:11.026227-04:00",
+  "generated_at_et": "2026-10-15T06:22:18.830652-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -14,9 +14,9 @@
     "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-10-14&to=2026-10-15"
   ],
   "counts": {
-    "universe": 119,
-    "scored": 53,
-    "skipped": 66,
+    "universe": 122,
+    "scored": 57,
+    "skipped": 65,
     "published": 15
   },
   "macro_events": [],
@@ -288,19 +288,19 @@
       "note": "5.8x normal volume"
     },
     {
-      "symbol": "MAN",
+      "symbol": "BJRI",
       "rank": 15,
-      "expected_move_pct": 9.96,
+      "expected_move_pct": 9.73,
       "band": [
-        3.4,
-        16.53
+        3.32,
+        16.14
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 3.214,
+        "baseline_vol": 3.138,
         "catalyst_weight": 3.1
       },
       "note": "Reports before the open"
