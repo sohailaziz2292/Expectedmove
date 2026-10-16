@@ -1,0 +1,311 @@
+{
+  "schema_version": 3,
+  "target_session": "2026-10-16",
+  "prior_session": "2026-10-15",
+  "generated_at_et": "2026-10-16T00:58:01.564232-04:00",
+  "phase": "refresh",
+  "locked": false,
+  "locked_at_et": null,
+  "sources": [
+    "finnhub",
+    "polygon"
+  ],
+  "warnings": [
+    "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-10-15&to=2026-10-16"
+  ],
+  "counts": {
+    "universe": 81,
+    "scored": 53,
+    "skipped": 28,
+    "published": 15
+  },
+  "macro_events": [],
+  "predictions": [
+    {
+      "symbol": "SPRC",
+      "rank": 1,
+      "expected_move_pct": 44.36,
+      "band": [
+        15.13,
+        73.6
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 21.895,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "3510.6x normal volume"
+    },
+    {
+      "symbol": "NCPL",
+      "rank": 2,
+      "expected_move_pct": 41.36,
+      "band": [
+        14.1,
+        68.62
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 23.363,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.265
+      },
+      "note": "4.3x normal volume"
+    },
+    {
+      "symbol": "PMI",
+      "rank": 3,
+      "expected_move_pct": 39.27,
+      "band": [
+        13.39,
+        65.14
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 20.802,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.348
+      },
+      "note": "6.9x normal volume"
+    },
+    {
+      "symbol": "WULX",
+      "rank": 4,
+      "expected_move_pct": 24.44,
+      "band": [
+        8.33,
+        40.54
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 14.589,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.196
+      },
+      "note": "3.0x normal volume"
+    },
+    {
+      "symbol": "IONL",
+      "rank": 5,
+      "expected_move_pct": 24.33,
+      "band": [
+        8.3,
+        40.36
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 14.694,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.183
+      },
+      "note": "2.8x normal volume"
+    },
+    {
+      "symbol": "IONX",
+      "rank": 6,
+      "expected_move_pct": 22.75,
+      "band": [
+        7.76,
+        37.74
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 14.835,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.095
+      },
+      "note": "Elevated baseline volatility"
+    },
+    {
+      "symbol": "BETR",
+      "rank": 7,
+      "expected_move_pct": 20.55,
+      "band": [
+        7.01,
+        34.09
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 11.142,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.317
+      },
+      "note": "5.8x normal volume"
+    },
+    {
+      "symbol": "ALOY",
+      "rank": 8,
+      "expected_move_pct": 20.41,
+      "band": [
+        6.96,
+        33.86
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_bmo"
+      ],
+      "drivers": {
+        "baseline_vol": 6.318,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.042
+      },
+      "note": "Reports before the open"
+    },
+    {
+      "symbol": "FMC",
+      "rank": 9,
+      "expected_move_pct": 19.84,
+      "band": [
+        6.76,
+        32.91
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 10.386,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.364
+      },
+      "note": "7.6x normal volume"
+    },
+    {
+      "symbol": "CRCD",
+      "rank": 10,
+      "expected_move_pct": 18.96,
+      "band": [
+        6.46,
+        31.45
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 11.761,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.151
+      },
+      "note": "2.3x normal volume"
+    },
+    {
+      "symbol": "RGC",
+      "rank": 11,
+      "expected_move_pct": 16.19,
+      "band": [
+        5.52,
+        26.86
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 7.99,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "16.5x normal volume"
+    },
+    {
+      "symbol": "IONZ",
+      "rank": 12,
+      "expected_move_pct": 15.68,
+      "band": [
+        5.35,
+        26.01
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 10.788,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.038
+      },
+      "note": "Elevated baseline volatility"
+    },
+    {
+      "symbol": "SOXL",
+      "rank": 13,
+      "expected_move_pct": 15.57,
+      "band": [
+        5.31,
+        25.84
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 9.67,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.15
+      },
+      "note": "2.3x normal volume"
+    },
+    {
+      "symbol": "IBKR",
+      "rank": 14,
+      "expected_move_pct": 8.34,
+      "band": [
+        2.84,
+        13.84
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior"
+      ],
+      "drivers": {
+        "baseline_vol": 2.663,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.08
+      },
+      "note": "Reported after yesterday's close"
+    },
+    {
+      "symbol": "JBHT",
+      "rank": 15,
+      "expected_move_pct": 6.45,
+      "band": [
+        2.2,
+        10.7
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_amc_prior"
+      ],
+      "drivers": {
+        "baseline_vol": 2.104,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.057
+      },
+      "note": "Reported after yesterday's close"
+    }
+  ],
+  "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
+}
