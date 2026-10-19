@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-10-19T01:07:00.994750-04:00",
+  "built_at_et": "2026-10-19T07:09:06.050892-04:00",
   "cycle": {
-    "at_et": "2026-10-19T01:07:00.994546-04:00",
+    "at_et": "2026-10-19T07:09:06.050637-04:00",
     "phase": "refresh",
     "target_session": "2026-10-19",
     "display_session": "2026-10-19",
     "locked": false
   },
-  "seconds_to_lock": 26279,
+  "seconds_to_lock": 4553,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-10-19",
     "prior_session": "2026-10-16",
-    "generated_at_et": "2026-10-19T01:07:00.993843-04:00",
+    "generated_at_et": "2026-10-19T07:09:06.049628-04:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -31,9 +31,9 @@
       "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-10-16&to=2026-10-19"
     ],
     "counts": {
-      "universe": 72,
+      "universe": 71,
       "scored": 45,
-      "skipped": 27,
+      "skipped": 26,
       "published": 15
     },
     "macro_events": [],
@@ -77,8 +77,27 @@
         "note": "89.8x normal volume"
       },
       {
-        "symbol": "AXTX",
+        "symbol": "SMX",
         "rank": 3,
+        "expected_move_pct": 69.87,
+        "band": [
+          23.82,
+          115.91
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "momentum_carryover"
+        ],
+        "drivers": {
+          "baseline_vol": 34.482,
+          "catalyst_weight": 1.4,
+          "rvol_bump": 1.447
+        },
+        "note": "101.5x normal volume"
+      },
+      {
+        "symbol": "AXTX",
+        "rank": 4,
         "expected_move_pct": 42.08,
         "band": [
           14.35,
@@ -97,7 +116,7 @@
       },
       {
         "symbol": "AEHG",
-        "rank": 4,
+        "rank": 5,
         "expected_move_pct": 42.03,
         "band": [
           14.33,
@@ -116,7 +135,7 @@
       },
       {
         "symbol": "XLAB",
-        "rank": 5,
+        "rank": 6,
         "expected_move_pct": 39.79,
         "band": [
           13.57,
@@ -135,7 +154,7 @@
       },
       {
         "symbol": "CRWG",
-        "rank": 6,
+        "rank": 7,
         "expected_move_pct": 37.73,
         "band": [
           12.87,
@@ -154,7 +173,7 @@
       },
       {
         "symbol": "PMI",
-        "rank": 7,
+        "rank": 8,
         "expected_move_pct": 37.24,
         "band": [
           12.7,
@@ -173,7 +192,7 @@
       },
       {
         "symbol": "CRWU",
-        "rank": 8,
+        "rank": 9,
         "expected_move_pct": 35.37,
         "band": [
           12.06,
@@ -192,7 +211,7 @@
       },
       {
         "symbol": "CWVX",
-        "rank": 9,
+        "rank": 10,
         "expected_move_pct": 35.3,
         "band": [
           12.04,
@@ -211,7 +230,7 @@
       },
       {
         "symbol": "NBIL",
-        "rank": 10,
+        "rank": 11,
         "expected_move_pct": 34.1,
         "band": [
           11.63,
@@ -230,7 +249,7 @@
       },
       {
         "symbol": "IREX",
-        "rank": 11,
+        "rank": 12,
         "expected_move_pct": 33.87,
         "band": [
           11.55,
@@ -246,25 +265,6 @@
           "rvol_bump": 1.265
         },
         "note": "4.4x normal volume"
-      },
-      {
-        "symbol": "NBIG",
-        "rank": 12,
-        "expected_move_pct": 33.46,
-        "band": [
-          11.41,
-          55.51
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "momentum_carryover"
-        ],
-        "drivers": {
-          "baseline_vol": 20.411,
-          "catalyst_weight": 1.4,
-          "rvol_bump": 1.171
-        },
-        "note": "2.6x normal volume"
       },
       {
         "symbol": "CLF",
