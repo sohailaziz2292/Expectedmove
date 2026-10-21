@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-10-21",
   "prior_session": "2026-10-20",
-  "generated_at_et": "2026-10-21T01:21:54.970819-04:00",
+  "generated_at_et": "2026-10-21T06:40:16.245842-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -14,9 +14,9 @@
     "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-10-20&to=2026-10-21"
   ],
   "counts": {
-    "universe": 129,
-    "scored": 74,
-    "skipped": 55,
+    "universe": 130,
+    "scored": 79,
+    "skipped": 51,
     "published": 15
   },
   "macro_events": [],
@@ -137,8 +137,27 @@
       "note": "34.4x normal volume"
     },
     {
-      "symbol": "FISN",
+      "symbol": "ATGL",
       "rank": 7,
+      "expected_move_pct": 24.9,
+      "band": [
+        8.49,
+        41.31
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 12.29,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "470.1x normal volume"
+    },
+    {
+      "symbol": "FISN",
+      "rank": 8,
       "expected_move_pct": 23.05,
       "band": [
         7.86,
@@ -157,7 +176,7 @@
     },
     {
       "symbol": "CTNM",
-      "rank": 8,
+      "rank": 9,
       "expected_move_pct": 22.26,
       "band": [
         7.59,
@@ -176,7 +195,7 @@
     },
     {
       "symbol": "RAIL",
-      "rank": 9,
+      "rank": 10,
       "expected_move_pct": 19.45,
       "band": [
         6.63,
@@ -195,7 +214,7 @@
     },
     {
       "symbol": "BETR",
-      "rank": 10,
+      "rank": 11,
       "expected_move_pct": 18.08,
       "band": [
         6.17,
@@ -214,7 +233,7 @@
     },
     {
       "symbol": "BRZE",
-      "rank": 11,
+      "rank": 12,
       "expected_move_pct": 16.66,
       "band": [
         5.68,
@@ -233,7 +252,7 @@
     },
     {
       "symbol": "MYGN",
-      "rank": 12,
+      "rank": 13,
       "expected_move_pct": 15.81,
       "band": [
         5.39,
@@ -249,25 +268,6 @@
         "rvol_bump": 1.447
       },
       "note": "14.8x normal volume"
-    },
-    {
-      "symbol": "HUIZ",
-      "rank": 13,
-      "expected_move_pct": 15.62,
-      "band": [
-        5.33,
-        25.92
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "momentum_carryover"
-      ],
-      "drivers": {
-        "baseline_vol": 7.71,
-        "catalyst_weight": 1.4,
-        "rvol_bump": 1.447
-      },
-      "note": "149.9x normal volume"
     },
     {
       "symbol": "PEGA",
