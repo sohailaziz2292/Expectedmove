@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-10-26",
   "prior_session": "2026-10-23",
-  "generated_at_et": "2026-10-26T01:15:46.400972-04:00",
+  "generated_at_et": "2026-10-26T07:32:00.625749-04:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 105,
-    "scored": 51,
-    "skipped": 54,
+    "scored": 54,
+    "skipped": 51,
     "published": 15
   },
   "macro_events": [],
@@ -212,26 +212,8 @@
       "note": "37.4x normal volume"
     },
     {
-      "symbol": "QMCO",
-      "rank": 11,
-      "expected_move_pct": 33.36,
-      "band": [
-        11.37,
-        55.34
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 10.76,
-        "catalyst_weight": 3.1
-      },
-      "note": "Reports before the open"
-    },
-    {
       "symbol": "JYD",
-      "rank": 12,
+      "rank": 11,
       "expected_move_pct": 28.36,
       "band": [
         9.67,
@@ -250,7 +232,7 @@
     },
     {
       "symbol": "MGNX",
-      "rank": 13,
+      "rank": 12,
       "expected_move_pct": 24.96,
       "band": [
         8.51,
@@ -268,41 +250,60 @@
       "note": "6.8x normal volume"
     },
     {
-      "symbol": "HYMC",
-      "rank": 14,
-      "expected_move_pct": 17.9,
+      "symbol": "MMYT",
+      "rank": 13,
+      "expected_move_pct": 14.03,
       "band": [
-        6.11,
-        29.7
+        4.78,
+        23.28
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 5.775,
+        "baseline_vol": 4.526,
         "catalyst_weight": 3.1
       },
       "note": "Reports before the open"
     },
     {
-      "symbol": "SCCO",
-      "rank": 15,
-      "expected_move_pct": 12.09,
+      "symbol": "HOS",
+      "rank": 14,
+      "expected_move_pct": 13.89,
       "band": [
-        4.12,
-        20.06
+        4.74,
+        23.04
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 3.6,
+        "baseline_vol": 4.194,
         "catalyst_weight": 3.1,
-        "rvol_bump": 1.084
+        "rvol_bump": 1.068
       },
       "note": "Reports before the open"
+    },
+    {
+      "symbol": "VZ",
+      "rank": 15,
+      "expected_move_pct": 11.48,
+      "band": [
+        3.91,
+        19.04
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_bmo"
+      ],
+      "drivers": {
+        "baseline_vol": 3.225,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.148
+      },
+      "note": "Reports before the open; 2.3x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
