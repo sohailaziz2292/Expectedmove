@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-11-18",
   "prior_session": "2026-11-17",
-  "generated_at_et": "2026-11-17T21:44:24.122191-05:00",
+  "generated_at_et": "2026-11-17T22:09:11.415922-05:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 114,
-    "scored": 57,
-    "skipped": 57,
+    "scored": 59,
+    "skipped": 55,
     "published": 15
   },
   "macro_events": [],
@@ -60,8 +60,26 @@
       "note": "1674.1x normal volume"
     },
     {
-      "symbol": "SLS",
+      "symbol": "VNET",
       "rank": 3,
+      "expected_move_pct": 39.16,
+      "band": [
+        13.35,
+        64.96
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_bmo"
+      ],
+      "drivers": {
+        "baseline_vol": 12.632,
+        "catalyst_weight": 3.1
+      },
+      "note": "Reports before the open"
+    },
+    {
+      "symbol": "SLS",
+      "rank": 4,
       "expected_move_pct": 36.86,
       "band": [
         12.57,
@@ -80,7 +98,7 @@
     },
     {
       "symbol": "SOXL",
-      "rank": 4,
+      "rank": 5,
       "expected_move_pct": 34.09,
       "band": [
         11.63,
@@ -99,7 +117,7 @@
     },
     {
       "symbol": "NCPL",
-      "rank": 5,
+      "rank": 6,
       "expected_move_pct": 33.56,
       "band": [
         11.45,
@@ -118,7 +136,7 @@
     },
     {
       "symbol": "GLAS",
-      "rank": 6,
+      "rank": 7,
       "expected_move_pct": 31.79,
       "band": [
         10.84,
@@ -137,7 +155,7 @@
     },
     {
       "symbol": "RCAT",
-      "rank": 7,
+      "rank": 8,
       "expected_move_pct": 30.92,
       "band": [
         10.54,
@@ -156,7 +174,7 @@
     },
     {
       "symbol": "BLSH",
-      "rank": 8,
+      "rank": 9,
       "expected_move_pct": 29.15,
       "band": [
         9.94,
@@ -175,7 +193,7 @@
     },
     {
       "symbol": "PICS",
-      "rank": 9,
+      "rank": 10,
       "expected_move_pct": 27.72,
       "band": [
         9.45,
@@ -194,7 +212,7 @@
     },
     {
       "symbol": "MPU",
-      "rank": 10,
+      "rank": 11,
       "expected_move_pct": 27.49,
       "band": [
         9.38,
@@ -210,25 +228,6 @@
         "rvol_bump": 1.447
       },
       "note": "1819.0x normal volume"
-    },
-    {
-      "symbol": "CSHR",
-      "rank": 11,
-      "expected_move_pct": 26.83,
-      "band": [
-        9.15,
-        44.51
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_bmo"
-      ],
-      "drivers": {
-        "baseline_vol": 6.418,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.348
-      },
-      "note": "Reports before the open; 6.9x normal volume"
     },
     {
       "symbol": "TROX",
@@ -287,25 +286,23 @@
       "note": "5.2x normal volume"
     },
     {
-      "symbol": "NVDA",
+      "symbol": "JMIA",
       "rank": 15,
-      "expected_move_pct": 19.41,
+      "expected_move_pct": 23.07,
       "band": [
-        6.62,
-        32.2
+        7.87,
+        38.28
       ],
       "confidence": 0.62,
       "catalysts": [
-        "earnings_amc_prior",
-        "macro_sensitive",
-        "momentum_carryover"
+        "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 5.598,
-        "catalyst_weight": 2.9,
-        "rvol_bump": 1.196
+        "baseline_vol": 6.236,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.194
       },
-      "note": "Reported after yesterday's close; 3.0x normal volume"
+      "note": "Reports before the open; 2.9x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
