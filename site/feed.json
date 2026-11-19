@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-18T21:47:00.820652-05:00",
+  "built_at_et": "2026-11-19T02:56:06.052217-05:00",
   "cycle": {
-    "at_et": "2026-11-18T21:47:00.820430-05:00",
+    "at_et": "2026-11-19T02:56:06.051934-05:00",
     "phase": "refresh",
     "target_session": "2026-11-19",
     "display_session": "2026-11-19",
     "locked": false
   },
-  "seconds_to_lock": 38279,
+  "seconds_to_lock": 19733,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-11-19",
     "prior_session": "2026-11-18",
-    "generated_at_et": "2026-11-18T21:47:00.819433-05:00",
+    "generated_at_et": "2026-11-19T02:56:06.050930-05:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -31,8 +31,8 @@
       "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-11-18&to=2026-11-19"
     ],
     "counts": {
-      "universe": 85,
-      "scored": 64,
+      "universe": 86,
+      "scored": 65,
       "skipped": 21,
       "published": 15
     },
