@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-11-19",
   "prior_session": "2026-11-18",
-  "generated_at_et": "2026-11-18T21:09:26.881286-05:00",
+  "generated_at_et": "2026-11-18T21:47:00.819433-05:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 85,
-    "scored": 63,
-    "skipped": 22,
+    "scored": 64,
+    "skipped": 21,
     "published": 15
   },
   "macro_events": [],
