@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-19T12:27:20.302293-05:00",
+  "built_at_et": "2026-11-19T13:50:22.671255-05:00",
   "cycle": {
-    "at_et": "2026-11-19T12:27:20.301841-05:00",
+    "at_et": "2026-11-19T13:50:22.670969-05:00",
     "phase": "session",
     "target_session": "2026-11-19",
     "display_session": "2026-11-19",
     "locked": true
   },
-  "seconds_to_lock": 71859,
+  "seconds_to_lock": 66877,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
