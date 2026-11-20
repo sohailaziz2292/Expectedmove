@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-11-20",
   "prior_session": "2026-11-19",
-  "generated_at_et": "2026-11-19T21:29:07.136756-05:00",
+  "generated_at_et": "2026-11-20T02:45:00.427532-05:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 65,
-    "scored": 53,
-    "skipped": 12,
+    "scored": 55,
+    "skipped": 10,
     "published": 15
   },
   "macro_events": [],
@@ -152,7 +152,7 @@
         "catalyst_weight": 1.4,
         "rvol_bump": 1.447
       },
-      "note": "1250.6x normal volume"
+      "note": "1245.6x normal volume"
     },
     {
       "symbol": "SOXL",
@@ -268,23 +268,23 @@
       "note": "Elevated baseline volatility"
     },
     {
-      "symbol": "WRD",
+      "symbol": "ESTC",
       "rank": 14,
-      "expected_move_pct": 25.33,
+      "expected_move_pct": 19.45,
       "band": [
-        8.64,
-        42.02
+        6.63,
+        32.26
       ],
       "confidence": 0.62,
       "catalysts": [
-        "earnings_bmo"
+        "earnings_amc_prior"
       ],
       "drivers": {
-        "baseline_vol": 7.185,
-        "catalyst_weight": 3.1,
-        "rvol_bump": 1.137
+        "baseline_vol": 5.637,
+        "catalyst_weight": 2.9,
+        "rvol_bump": 1.189
       },
-      "note": "Reports before the open; 2.1x normal volume"
+      "note": "Reported after yesterday's close; 2.9x normal volume"
     },
     {
       "symbol": "BSP",
