@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-11-20",
   "prior_session": "2026-11-19",
-  "generated_at_et": "2026-11-19T21:00:02.929877-05:00",
+  "generated_at_et": "2026-11-19T21:29:07.136756-05:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 65,
-    "scored": 54,
-    "skipped": 11,
+    "scored": 53,
+    "skipped": 12,
     "published": 15
   },
   "macro_events": [],
@@ -212,8 +212,27 @@
       "note": "480.8x normal volume"
     },
     {
-      "symbol": "NBIZ",
+      "symbol": "IESC",
       "rank": 11,
+      "expected_move_pct": 28.42,
+      "band": [
+        9.69,
+        47.15
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "earnings_bmo"
+      ],
+      "drivers": {
+        "baseline_vol": 8.369,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.095
+      },
+      "note": "Reports before the open"
+    },
+    {
+      "symbol": "NBIZ",
+      "rank": 12,
       "expected_move_pct": 26.95,
       "band": [
         9.19,
@@ -231,7 +250,7 @@
     },
     {
       "symbol": "UVIX",
-      "rank": 12,
+      "rank": 13,
       "expected_move_pct": 25.43,
       "band": [
         8.67,
@@ -250,7 +269,7 @@
     },
     {
       "symbol": "WRD",
-      "rank": 13,
+      "rank": 14,
       "expected_move_pct": 25.33,
       "band": [
         8.64,
@@ -269,7 +288,7 @@
     },
     {
       "symbol": "BSP",
-      "rank": 14,
+      "rank": 15,
       "expected_move_pct": 18.61,
       "band": [
         6.35,
@@ -285,25 +304,6 @@
         "rvol_bump": 1.164
       },
       "note": "Reports before the open; 2.5x normal volume"
-    },
-    {
-      "symbol": "KEYS",
-      "rank": 15,
-      "expected_move_pct": 17.13,
-      "band": [
-        5.84,
-        28.41
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "earnings_amc_prior"
-      ],
-      "drivers": {
-        "baseline_vol": 5.361,
-        "catalyst_weight": 2.9,
-        "rvol_bump": 1.102
-      },
-      "note": "Reported after yesterday's close"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
