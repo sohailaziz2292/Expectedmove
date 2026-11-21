@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-11-23",
   "prior_session": "2026-11-20",
-  "generated_at_et": "2026-11-20T20:43:50.780189-05:00",
+  "generated_at_et": "2026-11-20T21:21:47.326421-05:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 73,
-    "scored": 46,
-    "skipped": 27,
+    "scored": 44,
+    "skipped": 29,
     "published": 15
   },
   "macro_events": [],
@@ -289,22 +289,23 @@
       "note": "Reports before the open"
     },
     {
-      "symbol": "KSS",
+      "symbol": "NOAH",
       "rank": 15,
-      "expected_move_pct": 15.91,
+      "expected_move_pct": 13.17,
       "band": [
-        5.43,
-        26.39
+        4.49,
+        21.85
       ],
       "confidence": 0.62,
       "catalysts": [
         "earnings_bmo"
       ],
       "drivers": {
-        "baseline_vol": 5.132,
-        "catalyst_weight": 3.1
+        "baseline_vol": 3.295,
+        "catalyst_weight": 3.1,
+        "rvol_bump": 1.289
       },
-      "note": "Reports before the open"
+      "note": "Reports before the open; 5.0x normal volume"
     }
   ],
   "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
