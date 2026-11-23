@@ -1,19 +1,19 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-23T15:22:01.012745-05:00",
+  "built_at_et": "2026-11-23T16:53:26.783611-05:00",
   "cycle": {
-    "at_et": "2026-11-23T15:22:01.012522-05:00",
-    "phase": "session",
+    "at_et": "2026-11-23T16:53:26.783198-05:00",
+    "phase": "settle",
     "target_session": "2026-11-23",
     "display_session": "2026-11-23",
     "locked": true
   },
-  "seconds_to_lock": 61378,
+  "seconds_to_lock": 55893,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
-    "state": "unlocked",
-    "message": "Published after the 8:25 ET freeze. Treat as provisional."
+    "state": "degraded",
+    "message": "Built with 1 data source warning(s)."
   },
   "list": {
     "schema_version": 3,
@@ -335,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Market open",
-    "detail": "Today's list, read-only. Tomorrow's opens at 5:00 PM ET."
+    "label": "Scoring",
+    "detail": "Grading today's list against realized moves."
   }
 }
