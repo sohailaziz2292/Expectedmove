@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-20T21:21:47.327532-05:00",
+  "built_at_et": "2026-11-23T03:09:16.591362-05:00",
   "cycle": {
-    "at_et": "2026-11-20T21:21:47.327400-05:00",
+    "at_et": "2026-11-23T03:09:16.591191-05:00",
     "phase": "refresh",
     "target_session": "2026-11-23",
     "display_session": "2026-11-23",
     "locked": false
   },
-  "seconds_to_lock": 212592,
+  "seconds_to_lock": 18943,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-11-23",
     "prior_session": "2026-11-20",
-    "generated_at_et": "2026-11-20T21:21:47.326421-05:00",
+    "generated_at_et": "2026-11-23T03:09:16.590194-05:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -31,9 +31,9 @@
       "fmp earnings unavailable: fmp: /earning_calendar failed after retries: 403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/earning_calendar?apikey=sZE3r56iuGJC7ZDwpA06Lq3gLDH6EBZy&from=2026-11-20&to=2026-11-23"
     ],
     "counts": {
-      "universe": 73,
-      "scored": 44,
-      "skipped": 29,
+      "universe": 160,
+      "scored": 48,
+      "skipped": 112,
       "published": 15
     },
     "macro_events": [],
@@ -154,8 +154,26 @@
         "note": "2.2x normal volume"
       },
       {
-        "symbol": "BEX",
+        "symbol": "NCPL",
         "rank": 7,
+        "expected_move_pct": 57.75,
+        "band": [
+          19.69,
+          95.8
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 18.628,
+          "catalyst_weight": 3.1
+        },
+        "note": "Reports before the open"
+      },
+      {
+        "symbol": "BEX",
+        "rank": 8,
         "expected_move_pct": 50.67,
         "band": [
           17.28,
@@ -174,7 +192,7 @@
       },
       {
         "symbol": "BEG",
-        "rank": 8,
+        "rank": 9,
         "expected_move_pct": 48.71,
         "band": [
           16.61,
@@ -193,7 +211,7 @@
       },
       {
         "symbol": "CORZW",
-        "rank": 9,
+        "rank": 10,
         "expected_move_pct": 48.32,
         "band": [
           16.48,
@@ -211,8 +229,27 @@
         "note": "11.1x normal volume"
       },
       {
+        "symbol": "VNET",
+        "rank": 11,
+        "expected_move_pct": 47.34,
+        "band": [
+          16.14,
+          78.54
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_bmo"
+        ],
+        "drivers": {
+          "baseline_vol": 13.899,
+          "catalyst_weight": 3.1,
+          "rvol_bump": 1.099
+        },
+        "note": "Reports before the open"
+      },
+      {
         "symbol": "SOXL",
-        "rank": 10,
+        "rank": 12,
         "expected_move_pct": 47.11,
         "band": [
           16.07,
@@ -231,7 +268,7 @@
       },
       {
         "symbol": "CRDU",
-        "rank": 11,
+        "rank": 13,
         "expected_move_pct": 46.63,
         "band": [
           15.9,
@@ -250,7 +287,7 @@
       },
       {
         "symbol": "LABX",
-        "rank": 12,
+        "rank": 14,
         "expected_move_pct": 43.09,
         "band": [
           14.69,
@@ -269,7 +306,7 @@
       },
       {
         "symbol": "SKYA",
-        "rank": 13,
+        "rank": 15,
         "expected_move_pct": 39.87,
         "band": [
           13.6,
@@ -285,44 +322,6 @@
           "rvol_bump": 1.227
         },
         "note": "3.5x normal volume"
-      },
-      {
-        "symbol": "ANF",
-        "rank": 14,
-        "expected_move_pct": 16.9,
-        "band": [
-          5.76,
-          28.04
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 5.221,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.044
-        },
-        "note": "Reports before the open"
-      },
-      {
-        "symbol": "NOAH",
-        "rank": 15,
-        "expected_move_pct": 13.17,
-        "band": [
-          4.49,
-          21.85
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 3.295,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.289
-        },
-        "note": "Reports before the open; 5.0x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
