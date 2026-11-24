@@ -2,7 +2,7 @@
   "schema_version": 3,
   "target_session": "2026-11-24",
   "prior_session": "2026-11-23",
-  "generated_at_et": "2026-11-24T00:07:05.536952-05:00",
+  "generated_at_et": "2026-11-24T00:36:13.155918-05:00",
   "phase": "refresh",
   "locked": false,
   "locked_at_et": null,
@@ -15,8 +15,8 @@
   ],
   "counts": {
     "universe": 115,
-    "scored": 65,
-    "skipped": 50,
+    "scored": 59,
+    "skipped": 56,
     "published": 15
   },
   "macro_events": [],
@@ -41,8 +41,27 @@
       "note": "7.0x normal volume"
     },
     {
-      "symbol": "NVDQ",
+      "symbol": "RBNE",
       "rank": 2,
+      "expected_move_pct": 86.93,
+      "band": [
+        29.64,
+        144.22
+      ],
+      "confidence": 0.62,
+      "catalysts": [
+        "momentum_carryover"
+      ],
+      "drivers": {
+        "baseline_vol": 42.903,
+        "catalyst_weight": 1.4,
+        "rvol_bump": 1.447
+      },
+      "note": "25.9x normal volume"
+    },
+    {
+      "symbol": "NVDQ",
+      "rank": 3,
       "expected_move_pct": 57.76,
       "band": [
         19.7,
@@ -61,7 +80,7 @@
     },
     {
       "symbol": "AXTQ",
-      "rank": 3,
+      "rank": 4,
       "expected_move_pct": 57.31,
       "band": [
         19.54,
@@ -77,25 +96,6 @@
         "rvol_bump": 1.126
       },
       "note": "2.0x normal volume"
-    },
-    {
-      "symbol": "CORD",
-      "rank": 4,
-      "expected_move_pct": 56.12,
-      "band": [
-        19.14,
-        93.1
-      ],
-      "confidence": 0.62,
-      "catalysts": [
-        "momentum_carryover"
-      ],
-      "drivers": {
-        "baseline_vol": 35.024,
-        "catalyst_weight": 1.4,
-        "rvol_bump": 1.144
-      },
-      "note": "2.2x normal volume"
     },
     {
       "symbol": "IREZ",
