@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-24T23:20:16.125366-05:00",
+  "built_at_et": "2026-11-25T04:06:07.068778-05:00",
   "cycle": {
-    "at_et": "2026-11-24T23:20:16.125207-05:00",
+    "at_et": "2026-11-25T04:06:07.068561-05:00",
     "phase": "refresh",
     "target_session": "2026-11-25",
     "display_session": "2026-11-25",
     "locked": false
   },
-  "seconds_to_lock": 32683,
+  "seconds_to_lock": 15532,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-11-25",
     "prior_session": "2026-11-24",
-    "generated_at_et": "2026-11-24T23:20:16.124507-05:00",
+    "generated_at_et": "2026-11-25T04:06:07.067450-05:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 69,
-      "scored": 50,
-      "skipped": 19,
+      "scored": 54,
+      "skipped": 15,
       "published": 15
     },
     "macro_events": [],
@@ -266,60 +266,60 @@
         "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "BZ",
+        "symbol": "DELL",
         "rank": 13,
-        "expected_move_pct": 23.74,
+        "expected_move_pct": 39.63,
         "band": [
-          8.09,
-          39.38
-        ],
-        "confidence": 0.62,
-        "catalysts": [
-          "earnings_bmo"
-        ],
-        "drivers": {
-          "baseline_vol": 7.35,
-          "catalyst_weight": 3.1,
-          "rvol_bump": 1.042
-        },
-        "note": "Reports before the open"
-      },
-      {
-        "symbol": "NTNX",
-        "rank": 14,
-        "expected_move_pct": 15.74,
-        "band": [
-          5.37,
-          26.11
+          13.51,
+          65.74
         ],
         "confidence": 0.62,
         "catalysts": [
           "earnings_amc_prior"
         ],
         "drivers": {
-          "baseline_vol": 4.513,
+          "baseline_vol": 11.567,
           "catalyst_weight": 2.9,
-          "rvol_bump": 1.202
+          "rvol_bump": 1.181
         },
-        "note": "Reported after yesterday's close; 3.1x normal volume"
+        "note": "Reported after yesterday's close; 2.7x normal volume"
       },
       {
-        "symbol": "QFIN",
-        "rank": 15,
-        "expected_move_pct": 14.03,
+        "symbol": "CLSK",
+        "rank": 14,
+        "expected_move_pct": 36.9,
         "band": [
-          4.79,
-          23.28
+          12.58,
+          61.22
         ],
         "confidence": 0.62,
         "catalysts": [
           "earnings_amc_prior"
         ],
         "drivers": {
-          "baseline_vol": 4.839,
+          "baseline_vol": 12.725,
           "catalyst_weight": 2.9
         },
         "note": "Reported after yesterday's close"
+      },
+      {
+        "symbol": "AMBA",
+        "rank": 15,
+        "expected_move_pct": 36.85,
+        "band": [
+          12.57,
+          61.13
+        ],
+        "confidence": 0.62,
+        "catalysts": [
+          "earnings_amc_prior"
+        ],
+        "drivers": {
+          "baseline_vol": 9.311,
+          "catalyst_weight": 2.9,
+          "rvol_bump": 1.365
+        },
+        "note": "Reported after yesterday's close; 7.6x normal volume"
       }
     ],
     "disclaimer": "Expected absolute move only \u2014 no directional view, no recommendation. Informational research output, not investment advice."
