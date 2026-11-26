@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-26T03:49:03.579041-05:00",
+  "built_at_et": "2026-11-26T14:08:59.102519-05:00",
   "cycle": {
-    "at_et": "2026-11-26T03:49:03.578873-05:00",
-    "phase": "refresh",
+    "at_et": "2026-11-26T14:08:59.102275-05:00",
+    "phase": "closed",
     "target_session": "2026-11-27",
     "display_session": "2026-11-27",
     "locked": false
   },
-  "seconds_to_lock": 16556,
+  "seconds_to_lock": 65760,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -335,7 +335,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Refreshing overnight",
-    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
+    "label": "Closed",
+    "detail": "Markets are closed. Next list opens at 5:00 PM ET the evening before."
   }
 }
