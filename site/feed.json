@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-27T04:00:05.706705-05:00",
+  "built_at_et": "2026-11-27T14:04:48.737406-05:00",
   "cycle": {
-    "at_et": "2026-11-27T04:00:05.706541-05:00",
-    "phase": "refresh",
+    "at_et": "2026-11-27T14:04:48.736694-05:00",
+    "phase": "settle",
     "target_session": "2026-11-27",
     "display_session": "2026-11-27",
-    "locked": false
+    "locked": true
   },
-  "seconds_to_lock": 15894,
+  "seconds_to_lock": 238811,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -334,7 +334,7 @@
     "history": []
   },
   "phase_copy": {
-    "label": "Refreshing overnight",
-    "detail": "Rebuilding as earnings confirmations and after-hours prices arrive."
+    "label": "Scoring",
+    "detail": "Grading today's list against realized moves."
   }
 }
