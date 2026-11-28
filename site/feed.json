@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "built_at_et": "2026-11-27T21:52:09.681149-05:00",
+  "built_at_et": "2026-11-27T22:25:10.102044-05:00",
   "cycle": {
-    "at_et": "2026-11-27T21:52:09.680949-05:00",
+    "at_et": "2026-11-27T22:25:10.101804-05:00",
     "phase": "refresh",
     "target_session": "2026-11-30",
     "display_session": "2026-11-30",
     "locked": false
   },
-  "seconds_to_lock": 210770,
+  "seconds_to_lock": 208789,
   "next_lock_et": "08:25",
   "deadline_et": "08:30",
   "status": {
@@ -19,7 +19,7 @@
     "schema_version": 3,
     "target_session": "2026-11-30",
     "prior_session": "2026-11-27",
-    "generated_at_et": "2026-11-27T21:52:09.680245-05:00",
+    "generated_at_et": "2026-11-27T22:25:10.100830-05:00",
     "phase": "refresh",
     "locked": false,
     "locked_at_et": null,
@@ -32,8 +32,8 @@
     ],
     "counts": {
       "universe": 56,
-      "scored": 36,
-      "skipped": 20,
+      "scored": 37,
+      "skipped": 19,
       "published": 15
     },
     "macro_events": [],
@@ -242,23 +242,23 @@
         "note": "Elevated baseline volatility"
       },
       {
-        "symbol": "UFG",
+        "symbol": "POM",
         "rank": 12,
-        "expected_move_pct": 30.62,
+        "expected_move_pct": 31.53,
         "band": [
-          10.44,
-          50.79
+          10.75,
+          52.32
         ],
         "confidence": 0.62,
         "catalysts": [
           "momentum_carryover"
         ],
         "drivers": {
-          "baseline_vol": 15.111,
+          "baseline_vol": 15.563,
           "catalyst_weight": 1.4,
           "rvol_bump": 1.447
         },
-        "note": "2291.7x normal volume"
+        "note": "526.8x normal volume"
       },
       {
         "symbol": "CTRN",
